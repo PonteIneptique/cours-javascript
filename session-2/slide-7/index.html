@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Slide 7</title>
+  </head>
+  <body>
+  <form name="selectForm">
+  <p>
+    <label for="typesMusique">Veuillez choisir des genres musicaux, puis cliquez :</label>
+    <select id="typesMusique" name="typesMusique" multiple="multiple">
+      <option selected="selected">R&B</option>
+      <option>Jazz</option>
+      <option>Blues</option>
+      <option>New Age</option>
+      <option>Classique</option>
+      <option>Opera</option>
+    </select>
+  </p>
+  <p><button id="btn" type="button">Combien sont sélectionnés ?</button></p>
+</form>
+
+<script>
+function quantité(selectObject) {
+  var qtéSélectionnée = 0;
+  for (var i = 0; i < selectObject.options.length; i++) {
+    if (selectObject.options[i].selected) {
+      qtéSélectionnée++;
+    }
+  }
+  return qtéSélectionnée;
+}
+
+var btn = document.getElementById("btn");
+btn.addEventListener("click", function(){
+  alert('Nombre d\'options choisies : ' + quantité(document.selectForm.typesMusique))
+});
+</script>
+
+<small>Issu de https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Boucles_et_it%C3%A9ration#L'instruction_for</small>
+</body>
+</html>

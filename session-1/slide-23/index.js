@@ -1,0 +1,16 @@
+"ceci" == "ceci";
+"ceci" == "cela";
+"ceci" != "cela";
+"ceci" != "ceci";
+8 > 5;
+5 > 8;
+5 < 8;
+8 < 5;
+5 >= 5;
+3 >= 5;
+3 <= 3;
+4 <= 3;
+"ceci" === "ceci";
+"ceci" === "cela";
+"ceci" !== "cela";
+"ceci" !== "ceci";

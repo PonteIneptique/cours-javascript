@@ -17,9 +17,3 @@ Session 1 : Introduction
 
 - https://www.tutorialspoint.com/cplusplus/cpp_while_loop.htm
 - http://www.w3resource.com/javascript/statements/do-while.php
-
-
-## Videos
-
-- [Cracking Websites with Cross Site Scripting](https://www.youtube.com/watch?v=L5l9lSnNMxg)
-- [Aller plus loin : Hacking Websites with SQL Injection](https://www.youtube.com/watch?v=_jKylhJtPmI)

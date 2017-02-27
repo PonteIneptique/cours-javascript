@@ -1014,19 +1014,87 @@ body .markdown-body
     page-break-after: avoid;
   }
 }
-</style><title>index</title></head><body><article class="markdown-body"><h1 id="session-1-introduction"><a name="user-content-session-1-introduction" href="#session-1-introduction" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Session 1 : Introduction</h1>
-<h1 id="slides"><a name="user-content-slides" href="#slides" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Slides</h1>
-<h1 id="bibliographie"><a name="user-content-bibliographie" href="#bibliographie" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Bibliographie</h1>
-<h2 id="articles-et-ressources-importantes"><a name="user-content-articles-et-ressources-importantes" href="#articles-et-ressources-importantes" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Articles et ressources importantes</h2>
-<ul>
-<li><a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Boucles_et_it%C3%A9ration#L'instruction_for...of">Boucles et itérations</a></li>
-</ul>
-<h2 id="comics"><a name="user-content-comics" href="#comics" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Comics</h2>
-<ul>
-<li><a href="http://phdcomics.com/comics/archive.php?comicid=1690">http://phdcomics.com/comics/archive.php?comicid=1690</a></li>
-</ul>
-<h2 id="images"><a name="user-content-images" href="#images" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Images</h2>
-<ul>
-<li><a href="https://www.tutorialspoint.com/cplusplus/cpp_while_loop.htm">https://www.tutorialspoint.com/cplusplus/cpp_while_loop.htm</a></li>
-<li><a href="http://www.w3resource.com/javascript/statements/do-while.php">http://www.w3resource.com/javascript/statements/do-while.php</a></li>
-</ul></article></body></html>
+</style><title>index</title></head><body><article class="markdown-body"><h1 id="jquery-vs-native-js"><a name="user-content-jquery-vs-native-js" href="#jquery-vs-native-js" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>jQuery vs native JS</h1>
+<p>Issu de <a href="https://gist.github.com/joyrexus/5322252">https://gist.github.com/joyrexus/5322252</a></p>
+<h2 id="selecting-elements"><a name="user-content-selecting-elements" href="#selecting-elements" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Selecting Elements</h2>
+<pre><code class="javascript">var divs = $(&quot;div&quot;);
+
+var divs = document.querySelectorAll(&quot;div&quot;);
+
+
+var parent = $(&quot;#about&quot;).parent();
+
+var parent = document.getElementById(&quot;about&quot;).parentNode;
+
+
+var nextElement = $(&quot;#wrap&quot;).next();
+
+var nextElement = document.getElementById(&quot;wrap&quot;).nextSibling;
+</code></pre>
+
+<h2 id="setting-attributes"><a name="user-content-setting-attributes" href="#setting-attributes" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Setting Attributes</h2>
+<pre><code class="javascript">$(&quot;img&quot;).filter(&quot;:first&quot;).attr(&quot;alt&quot;, &quot;My image&quot;);
+
+document.querySelector(&quot;img&quot;).setAttribute(&quot;alt&quot;, &quot;My image&quot;);
+</code></pre>
+
+<h2 id="creating-elements"><a name="user-content-creating-elements" href="#creating-elements" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Creating Elements</h2>
+<pre><code class="javascript">var newDiv = $(&quot;&lt;div/&gt;&quot;);
+
+var newDiv = document.createElement(&quot;div&quot;);
+
+$(&quot;body&quot;).append($(&quot;&lt;p/&gt;&quot;));
+
+document.body.appendChild(document.createElement(&quot;p&quot;));
+</code></pre>
+
+<h2 id="cloning-elements"><a name="user-content-cloning-elements" href="#cloning-elements" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Cloning Elements</h2>
+<pre><code class="javascript">var clonedElement = $(&quot;#about&quot;).clone();
+
+var clonedElement = document.getElementById(&quot;about&quot;).cloneNode(true);
+</code></pre>
+
+<h2 id="removing-elements"><a name="user-content-removing-elements" href="#removing-elements" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Removing Elements</h2>
+<pre><code class="javascript">$(&quot;#wrap&quot;).empty();
+
+var wrap = document.getElementById(&quot;wrap&quot;);
+while(wrap.firstChild) wrap.removeChild(wrap.firstChild);
+</code></pre>
+
+<h2 id="testing-for-child-nodes"><a name="user-content-testing-for-child-nodes" href="#testing-for-child-nodes" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Testing for child nodes</h2>
+<pre><code class="javascript">if($(&quot;#wrap&quot;).is(&quot;:empty&quot;))
+
+if(!document.getElementById(&quot;wrap&quot;).hasChildNodes())
+</code></pre>
+
+<h2 id="adding-classes"><a name="user-content-adding-classes" href="#adding-classes" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Adding Classes</h2>
+<pre><code class="javascript">newDiv.addClass(&quot;foo&quot;);
+
+newDiv.classList.add(&quot;foo&quot;);
+</code></pre>
+
+<h2 id="toggling-classes"><a name="user-content-toggling-classes" href="#toggling-classes" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Toggling Classes</h2>
+<pre><code class="javascript">newDiv.toggleClass(&quot;foo&quot;);
+
+newDiv.classList.toggle(&quot;foo&quot;);
+</code></pre>
+
+<h2 id="adding-events"><a name="user-content-adding-events" href="#adding-events" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Adding Events</h2>
+<pre><code class="javascript">$(&quot;a&quot;).click(function() {
+  // code
+})
+
+[].forEach.call(document.querySelectorAll(&quot;a&quot;), function(el) {
+  el.addEventListener(&quot;click&quot;, function() {
+    // code
+  });
+});
+
+$(document).ready(function() {
+  // code
+});
+
+document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
+  // code
+});
+</code></pre></article></body></html>

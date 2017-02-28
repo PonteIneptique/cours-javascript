@@ -1,7 +1,16 @@
-Session 1 : Introduction 
-========================
+Session 3 : Ajax et jQuery
+==========================
+
+[Présentation](./presentation.pdf)
 
 # Slides
+
+- [Slide 10](./slide-10/exemple.js)
+- [Slide 15](./slide-15/index.html)
+- [Slide 17](./slide-17/index.html)
+- [Slide 18](./slide-18/index.html)
+- [Slide 19](./slide-19/index.html)
+- [Slide 20](./slide-20/index.html)
 
 - https://www.w3schools.com/js/tryit.asp?filename=tryjs_ajax_callback
 

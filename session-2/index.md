@@ -1,7 +1,25 @@
-Session 1 : Introduction 
-========================
+Session 2 : Blocs 
+=================
+
+[Présentation](./presentation.pdf)
 
 # Slides
+
+- [Slide 2](./slide-2/exemple.js)
+- [Slide 3](./slide-3/exemple.js)
+- [Slide 4](./slide-4/exemple.js)
+- [Slide 5](./slide-5/exemple.js)
+- [Slide 6](./slide-6/exemple.js)
+- [Slide 7](./slide-7/index.html)
+- [Slide 8](./slide-8/exemple.js)
+- [Slide 9](./slide-9/data.js)
+- [Slide 10](./slide-10/exemple.js)
+- [Slide 11](./slide-11/exemple.js)
+- [Slide 12](./slide-12/exemple.js)
+- [Slide 13](./slide-13/exemple.js)
+- [Slide 14](./slide-14/exemple.js)
+- [Slide 15](./slide-15/index.html)
+
 
 # Bibliographie
 

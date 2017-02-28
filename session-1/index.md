@@ -1,9 +1,20 @@
 Session 1 : Introduction 
 ========================
 
+[Présentation](./presentation.pdf)
+
 # Slides
 
-- [Syntaxe du Javascript](/slide-20/exemples.js)
+- [Slide 16](./slide-16/index.html)
+- [Slide 17](./slide-17/index.html)
+- [Slide 20](./slide-20/exemples.js)
+- [Slide 21](./slide-21/exemples.js)
+- [Slide 22](./slide-22/exemples.js)
+- [Slide 23](./slide-23/exemples.js)
+- [Slide 24](./slide-24/exemples.js)
+- [Slide 29](./slide-29/index.html)
+
+- https://codeshare.io/
 
 # Bibliographie
 

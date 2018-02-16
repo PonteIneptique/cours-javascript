@@ -1,12 +1,30 @@
 <style>
 .slide {
     justify-content: initial!important;
-    margin-top:10px!important;
 }
-.slide p, .slide ul { font-size:0.9em; }
+.slide p, .slide ul, .slide li { font-size:0.85em; }
 .slide h2, .slide h1 { padding-bottom:0.1em; }
 .slide pre { font-size:0.8em; }
-.slide table { font-size:0.7em; }</style>
+.slide table { font-size:0.7em; }
+.slide .two-pre { 
+	flex:2;
+    gutter:5px;
+	width:100%;
+    height:100%;
+    min-height:550px;
+	display:flex;
+	flex-flow: row wrap;
+    align-items: stretch;
+    justify:center;
+}
+.slide .two-pre pre {
+	flex:1;
+    display:block;
+    margin:0 5px;
+    font-size:0.55em;
+}
+
+</style>
 # Introduction au Javascript
 
 ## Du back-end au front-end, une introduction au JS via Python
@@ -180,13 +198,201 @@ if (ma_variable == 123) {
 
 Les égalités s'expriment de la même manière qu'en Python. On fera attention cependant aux variantes `===` et `!==` qui signifient strictement égales ou inégales. On les préfèrera à `==` et `!=`. *Cf.* https://dorey.github.io/JavaScript-Equality-Table/
 
-| Opérateur                   | Exemples qui renvoient true   |
-|-----------------------------|-------------------------------|
-| Égalité (==)                | 3 == var1 "3" == var13 == '3' |
-| Inégalité (!=)              | var1 != 4var2 != "3"          |
-| Égalité stricte (===)       | 3 === var1                    |
-| Inégalité stricte (!==)     | var1 !== "3"3 !== '3'         |
-| Supériorité stricte (>)     | var2 > var1"12" > 2           |
-| Supériorité ou égalité (>=) | var2 >= var1var1 >= 3         |
-| Infériorité stricte (<)     | var1 < var2"2" < "12"         |
-| Infériorité ou égalité (<=) | var1 <= var2var2 <= 5         |
+| Opérateur                   | Exemples qui renvoient true          |
+|-----------------------------|--------------------------------------|
+| Égalité (==)                | `3 == var1` `"3" == var1` `3 == '3'` |
+| Inégalité (!=)              | `var1 != 4`  `var2 != "3"`           |
+| Égalité stricte (===)       | `3 === var1`                         |
+| Inégalité stricte (!==)     | `var1 !== "3"`  `3 !== '3'`          |
+| Supériorité stricte (>)     | `var2 > var1`  `"12" > 2`            |
+| Supériorité ou égalité (>=) | `var2 >= var1` `var1 >= 3`           |
+| Infériorité stricte (<)     | `var1 < var2`  `"2" < "12"`          |
+| Infériorité ou égalité (<=) | `var1 <= var2` `var2 <= 5`           |
+
+---
+
+# Syntaxe du javascript (4)
+
+## Dictionnaires et listes
+
+1. Les dictionnaires et listes sont appelés `Object` et `Array`. 
+2.  Les dictionnaires sont en fait des objets (au sens instance de classe avec `self` en python) simplifiés
+3. L'écriture d'une liste ou d'un dictionnaire sont similaires :
+```js
+var dico = {
+  "python": "Un langage propre",
+  "javascript": "Un langage discuté",
+  "php": "Personne ne m'aime",
+  "delphi": "?"
+}
+var liste = ["a", 1, "4", dico]
+```
+4. L'accès se fait comme en python : `liste[0] === "a"` et `dico["delphi"] === "?"`. Mais on peut ajouter l'écriture `dico.delphi === dico["delphi"]` comme écriture.
+
+---
+
+# Syntaxe du javascript (5)
+
+## Dictionnaires et listes
+
+| Description                  | Python                | Javascript                   |
+|------------------------------|-----------------------|------------------------------|
+| Assignation                  | `x= [1, 2, 3]`        | `var x = [1, 2, 3]`           |
+| Taille                       | `len(x) == 3`         | `x.length === 3`             |
+| Vide                         | `not x`               | `x.length === 0`             |
+| Element `i`                  | `x[i]`                | `x[i]`                       |
+| Dernier élément              | `x[-1] == 3`          | `x[x.length-1] === 3`        |
+| Sous-ensemble                | `x[1:2] === [2, 3]`   | `x.slice(1,2) === [2, 3]`    |
+| Sous-ensemble jusqu'à la fin | `x[1:] == [2, 3]`     | `x.slice(1) === [2, 3]`      |
+| Ajout d'un élément           | `x.append(4)`         | `x.push(4)`                  |
+| Tri                          | `x.sort()`            | `x.sort()`                   |
+| Inclut                       | `2 in x`              | `x.includes(2)`              |
+| Additon de listes            | `[1] + [2] == [1, 2]` | `[1].extend([2]) === [1, 2]` |
+
+
+---
+# Syntaxe du javascript (6)
+
+## Les boucles
+
+<div class="two-pre">
+
+```js
+// Javascript
+var liste = [6, 7, 8];
+for (var entier of liste) {
+  console.log(entier * 2);
+}
+
+// Énumeration basée sur une liste
+for (var i = 0; i < liste.length; ++i) {
+  console.log(liste[i]);
+}
+
+// Énumeration basée sur une range
+for (var i = 0; i < 100; ++i) {
+  console.log(i);
+}
+
+// Pas avec while
+var i = 0;
+while (i < 100) {
+  console.log(i);
+  i += 1;
+}
+```
+
+```python
+# PYTHON
+liste = [6, 7, 8];
+for entier in liste:
+  print(entier * 2)
+
+
+# Énumeration basée sur une liste
+for index, entier in enumerate(liste):
+  print(entier == liste[index])
+
+
+# Énumeration basée sur une range
+for i in range(0, 100):
+  print(i)
+
+
+# Pas avec while
+i = 0;
+while i < 100:
+  print(i)
+  i += 1
+```
+
+</div>
+
+---
+
+# Fonctions
+
+
+<div class="two-pre">
+
+```js
+/**
+ * Conjugue un verbe du 1er groupe
+ *   au présent
+ *
+ * @param {str} v Verbe à l'infinitif
+ * @param {int} p Personne
+ * @param {int} n Nombre 
+      (1 si singulier, autre si pluriel)
+ * @return {str} Verbe conjugué
+ */
+var conjugue = function(v, p, n) {
+ var verbe = v.substring(0, v.length-2);
+ if (n === 1) {
+   if (p === 1) {
+     return verbe + "e";
+   } else if (p === 2) {
+     return verbe + "es";
+   } else if (p === 3) {
+     return verbe + "e";
+   }
+ } else {
+   if (p === 1) {
+     return verbe + "ons";
+   } else if (p === 2) {
+     return verbe + "ez";
+   } else if (p === 3) {
+     return verbe + "ent";
+   }
+ }
+}
+
+console.log(conjugue("chanter", 2, 2));
+```
+
+```python
+def conjugue(verbe, personne, nombre):
+ """ Conjugue un verbe du 1er groupe
+ au présent
+ 
+ :param verbe: Verbe à l'infinitif
+ :type verbe: str
+ :param personne: Personne
+ :type nombre: int
+ :param nombre: Nombre 
+      (1 si singulier, autre si pluriel)
+ :type nombre: int
+ :returns: Verbe conjugué
+ :rtype: str
+ """
+ verbe = verbe[:-2]
+ if nombre == 1:
+   if personne == 1:
+     return verbe + "e"
+   elif personne == 2:
+     return verbe + "es"
+   elif personne == 3:
+     return verbe + "e"
+ else:
+     return verbe + "ons"
+   elif personne == 2:
+     return verbe + "ez"
+   elif personne == 3:
+     return verbe + "ent"
+
+
+
+print(conjugue("chanter", 2, 2)
+```
+
+</div>
+
+Attention : pas de paramètres nommés en javascript ES5. On utilisera un dictionnaire si on en ressent le besoin.
+
+---
+
+# Exercice
+
+---
+
+# Le DOM

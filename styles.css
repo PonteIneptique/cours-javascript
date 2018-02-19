@@ -1,0 +1,24 @@
+.slide {
+    justify-content: initial!important;
+}
+.slide p, .slide li { font-size:0.80em; }
+.slide li li { font-size:1em; }
+.slide h2, .slide h1 { padding-bottom:0.1em; }
+.slide pre { font-size:0.8em; }
+.slide table { font-size:0.7em; }
+.slide .two-pre { 
+    flex:2;
+    gutter:5px;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify:center;
+}
+.slide .two-pre pre {
+    flex:1;
+    display:block;
+    margin:0 5px;
+    font-size:0.55em;
+}

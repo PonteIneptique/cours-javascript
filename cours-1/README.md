@@ -1,30 +1,5 @@
-<style>
-.slide {
-    justify-content: initial!important;
-}
-.slide p, .slide li { font-size:0.80em; }
-.slide li li { font-size:1em; }
-.slide h2, .slide h1 { padding-bottom:0.1em; }
-.slide pre { font-size:0.8em; }
-.slide table { font-size:0.7em; }
-.slide .two-pre { 
-	flex:2;
-    gutter:5px;
-	width:100%;
-    height:100%;
-	display:flex;
-	flex-flow: row wrap;
-    align-items: stretch;
-    justify:center;
-}
-.slide .two-pre pre {
-	flex:1;
-    display:block;
-    margin:0 5px;
-    font-size:0.55em;
-}
+<link rel="stylesheet" href="../styles.css" data-marp-path-resolver="href" />
 
-</style>
 # Introduction au Javascript
 
 ## Du back-end au front-end, une introduction au JS via Python
@@ -34,7 +9,7 @@ Thibault Clérice,
 https://github.com/ponteineptique/cours-javascript
 
 
-------
+---
 
 # Objectifs du cours
 
@@ -43,16 +18,17 @@ https://github.com/ponteineptique/cours-javascript
   - Le javascript dans le HTML
   - Comment déboguer du javascript
   - Syntaxe du javascript (par rapport à python)
-  - Le DOM
 - Cours 2
+  - Le DOM
   - L'usage de bibliothèques
+  - Ajout de champs en HTML
+- Cours 3
   - Le concept d'Ajax
   - Le concept de fonctions anonyme et de *callback*
   - Utilisation d'une librairie
   	- Faire un pop-up à partir de données Ajax
-- Cours 3 et suivants
+- Cours 4 et suivants
   - Faire une carte avec Leaflet
-  - Ajout de champs en HTML
 ---
 
 # Bibliographie
@@ -687,11 +663,3 @@ print(conjugue("chanter", 2, 2)
 </div>
 
 **Attention:** pas de paramètres nommés en javascript ES5. On utilisera un dictionnaire si on en ressent le besoin.
-
----
-
-# Exercice
-
----
-
-# Le DOM

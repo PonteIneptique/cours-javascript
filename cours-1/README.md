@@ -2,7 +2,8 @@
 .slide {
     justify-content: initial!important;
 }
-.slide p, .slide ul, .slide li { font-size:0.85em; }
+.slide p, .slide li { font-size:0.80em; }
+.slide li li { font-size:1em; }
 .slide h2, .slide h1 { padding-bottom:0.1em; }
 .slide pre { font-size:0.8em; }
 .slide table { font-size:0.7em; }
@@ -11,7 +12,6 @@
     gutter:5px;
 	width:100%;
     height:100%;
-    min-height:550px;
 	display:flex;
 	flex-flow: row wrap;
     align-items: stretch;
@@ -59,7 +59,7 @@ https://github.com/ponteineptique/cours-javascript
 
 - Php, MySQL et Javascript, Nixon, O’Reilly
 - JavaScript & JQuery, Jon Duckett, Wiley & Sons
-- Eloquent Javascript, Haverbeke, O’Reilly (3Eme édition : http://eloquentjavascript.net/3rd_edition/ )
+- Eloquent Javascript, Haverbeke, O’Reilly (3e édition : http://eloquentjavascript.net/3rd_edition/ )
 
 ---
 
@@ -70,9 +70,12 @@ https://github.com/ponteineptique/cours-javascript
   - http://www.gchagnon.fr/cours/dhtml/
 - Outils
 	- https://jsfiddle.net/
+	- http://labs.codecademy.com/
 - Veille
 	- https://reddit.com/r/javascript
 	- http://stackoverflow.com
+- Nouvelles fonctionnalités ES6
+	- https://github.com/addyosmani/es6-equivalents-in-es5
 ---
 
 # Avertissement
@@ -81,15 +84,37 @@ Ce cours n'a pas été écrit en utilisant la syntaxe nouvelle de ES 6 et ES 7, 
 
 ---
 
-# Qu'est-ce que javascript
+# Qu'est-ce que javascript ?
+
+
+<img align="right" src="javascript_java.jpg" width="30%" style="margin:5px;" />
+
+1. Javascript est originellement un langage prévu pour l'interaction sur une page web. Il permet d'altérer le code HTML de la page après son envoi par le serveur.
+2. Contrairement au serveur, Javascript possède des informations sur l'interface de l'utilisateur : taille de fenêtre, position du curseur, etc.
+3. Ses versions sont nommées EcmaScript
+4. Il peut être utilisé aussi du côté serveur via NodeJS.
+	1. Il a d'ailleurs son petit succès de ce côté là.
+5. Il est à la mode de créer des applications en n'utilisant que du Javascript et des APIs (pas de HTML prégénéré)
 
 ---
 
 # Courte histoire du javascript
 
+![Histoire du Javascript](histoire_js.png)
+
+- Création : 1995
+- Dernière version ES7@
+	- Très proche de ES6
+	- Et donc très loin de ES5
+	- https://kangax.github.io/compat-table/es6/
+	- Mais proche d’ActionScript (Avec 15 ans de retard)
+		- Qui lui même est proche d’ES4 (abandonné)
+
 ---
 
 # Où se situe le javascript dans le Web ?
+
+![Où ?](javascript.png)
 
 ---
 
@@ -213,6 +238,123 @@ Les égalités s'expriment de la même manière qu'en Python. On fera attention 
 
 # Syntaxe du javascript (4)
 
+## Les Chaînes
+
+1. Tout comme en Python, les chaînes se distinguennt des variables grâce aux `"` et aux `		'`.
+2. On concatène des chaînes via `+` : `var x = "a" + "b"; "ab" === x;`
+3. Les tranches de chaînes s'écrivent avec la méthode `.substring(début, fin)` :
+	- `fin` est optionnel et n'est pas inclusif (comme l'index de fin en python)
+	- Si `fin` n'est pas spécifié, `.subtring(début)` va jusqu'à la fin
+
+<div class="two-pre">
+
+```javascript
+// Javascript
+var v = "chanter";
+
+// Sans end
+v.substring(3) == "nter";
+// Avec une fin
+v.substring(0, 3)] === "cha";
+// Avec une fin relative
+v.substring(0, v.length-2) === "chant";
+```
+
+```python
+# Python
+v = "chanter"
+
+# Sans end
+v[3:] == "nter"
+# Avec une fin
+v[0:3] == "cha"
+# Avec une fin relative
+v[0:-2] == "chant"
+```
+
+</div>
+
+4. On transforme une chaîne en entier via la fonction `parseInt()` : `parseInt("42") === 42` (*en python, `int("42")`*)
+5. On transforme une chaîne en décimal via `parseFloat()`
+
+---
+
+# Syntaxe du javascript (5)
+
+## Les Chaînes (2)
+
+6. On joint les listes via `.join()` où `join` est une méthode de liste
+7. On sépare une chaîne via `.split(délimiteur)`
+8. On peut tester les préfixes et suffixes via `.startsWith()` et `.endsWith()`
+
+<div class="two-pre">
+
+```javascript
+// Javascript
+var v = ["1", "2"];
+// Jointure: Attention! Inverse de Py. !
+v.join(" ") === "1 2"
+
+// Découpage
+var n = 'c d  e ';
+n.split(' '); // ['c', 'd', '', 'e', '']
+// Accepte une expression régulière
+n.split(/\s+/); // ['c', 'd', 'e', '']
+
+// Préfixes
+n.startsWith("c") === true;
+n.endsWith("e") === false;
+```
+
+```python
+# Python
+v = ["1", "2"]
+# Jointure
+" ".join(v) == "1 2"
+
+# Découpage 
+n = 'c d  e '
+n.split(' ') == ['c', 'd', '', 'e', '']
+# Vide pour tout type d'espace
+n.split() == ['c', 'd', 'e']
+
+# Préfixes
+n.startswith("c") == True
+n.endswith("e") == False
+```
+
+</div>
+
+---
+
+# Syntaxe du javascript (6)
+
+## Les Chaînes (3)
+
+9. `.replace(recherche, remplacement)` permet de faire des remplacements de chaînes
+	- Fonctionne avec des expressions régulières
+	- On peut utiliser les paramètres 
+		- `g` (Valable sur toute la chaîne : global) 
+		- `i` (Insensible à la casse)
+```javascript
+// Javascript
+var s = 'do re mi mi Mi';
+// Avec une chaîne
+s.replace("mi", 'ma') === "do re ma mi Mi";
+// Avec une expression régulière
+s.replace(/mi/, 'ma') === "do re ma mi Mi";
+// Avec un paramètre g pour global
+// Serait l'équivalent en python de .replace()
+s.replace(/mi/g, 'ma') === "do re ma ma Mi";
+// Serait l'équivalent en python de .replace()
+s.replace(/mi/gi, 'ma') === "do re ma ma ma";
+
+```
+
+---
+
+# Syntaxe du javascript (7)
+
 ## Dictionnaires et listes
 
 1. Les dictionnaires et listes sont appelés `Object` et `Array`. 
@@ -231,7 +373,7 @@ var liste = ["a", 1, "4", dico]
 
 ---
 
-# Syntaxe du javascript (5)
+# Syntaxe du javascript (8)
 
 ## Dictionnaires et listes
 
@@ -247,11 +389,12 @@ var liste = ["a", 1, "4", dico]
 | Ajout d'un élément           | `x.append(4)`         | `x.push(4)`                  |
 | Tri                          | `x.sort()`            | `x.sort()`                   |
 | Inclut                       | `2 in x`              | `x.includes(2)`              |
-| Additon de listes            | `[1] + [2] == [1, 2]` | `[1].extend([2]) === [1, 2]` |
+| Additon de listes            | `[1] + [2] == [1, 2]` | `[1].extend([2]) -> [1, 2]`  |
 
 
 ---
-# Syntaxe du javascript (6)
+
+# Syntaxe du javascript (9)
 
 ## Les boucles
 
@@ -272,14 +415,20 @@ for (var i = 0; i < liste.length; ++i) {
 // Énumeration basée sur une range
 for (var i = 0; i < 100; ++i) {
   console.log(i);
-}
+};
 
 // Pas avec while
 var i = 0;
 while (i < 100) {
   console.log(i);
   i += 1;
-}
+};
+
+// Boucle sur clé de dictionnaire
+var dico = {"a": "b", "c": "d"};
+for (var cle in dico) {
+  print(dico[cle]);
+};
 ```
 
 ```python
@@ -304,6 +453,157 @@ i = 0;
 while i < 100:
   print(i)
   i += 1
+  
+
+# Boucle sur clé de dictionnaire
+dico = {"a": "b", "c": "d"};
+for cle in dico {
+  print(dico[cle])
+}
+```
+
+</div>
+
+---
+
+# Satané Javascript
+
+<img align="right" src="diabolo.jpg" width="25%" style="margin:20px;" />
+
+1. Il n'est pas possible de comparer des listes et des objets entre eux-elles
+
+```javascript
+var dico1 = { a: 'b', c: 'd' };
+var dico2 = { a: 'b', c: 'd' };
+dico1 === dico2 // false
+```
+2. Une variable qui n'a pas de valeur est `undefined` (En python, une erreur serait lancée)
+```javascript
+var x = function(z) { console.log(z); };
+
+```
+3. Il y a un mode strict en javascript. On le définit comme suit en haut de fichier ou de script :
+```javascript
+'use strict';
+```
+*On réfléchira vivement sur le fait que le mode permissif soit celui par défaut.*
+
+---
+
+# Satané Javascript (2)
+
+<img align="right" src="diabolo.jpg" width="25%" style="margin:15px;" />
+
+Python : `[1, 2] == [1, 2]`
+
+Javascript : https://stackoverflow.com/questions/7837456/how-to-compare-arrays-in-javascript
+
+<div style="font-size:0.8em;">
+
+```js
+var equals = function (l1, l2) {
+  // Si l'autre array n'est pas vraiment rempli
+  if (!l1 || !l2) { return false; }
+
+  // Comparaison des tailles
+  if (l1.length != l2.length) { return false; }
+  for (var i = 0, l=l1.length; i < l; i++) {
+    // On vérifie si on a une liste dans une liste
+    if (l1[i] instanceof Array && 
+           l2[i] instanceof Array) {
+      // Si oui, on réutilise la fonction
+      if (!equals(l1[i], l2[i]) { return false; }
+    } else if (l1[i] != l2[i]) { 
+        // Attention, si ce sont des objets,
+        // toujours false malheureusement
+        return false;   
+      }           
+    }       
+  return true;
+}
+comp_liste([1, 2, [7, 8]], [1, 2, [7, 8]]);
+```
+</div>
+
+---
+
+# Satané Javascript (3)
+
+<img align="right" src="diabolo.jpg" width="12%" style="margin:10px;" />
+
+Python : 
+
+```python
+def affine(x, a=2, b=5):
+  return a*x+b
+affine(x, b=7)
+```
+
+Javascript :
+
+<div style="font-size:0.8em;;">
+
+```js
+var affine = function(x, options) {
+  var defauts = {"a": 2, "b": 5};
+  if (!options) {
+    options = defauts;
+  } else {
+    for (var cle in defaults) {
+      if (!options[cle]) { options[cle] = defaut[cle]; }
+    }
+  }
+  return options["a"] * x + options["b"];
+}
+affine(2, {"b": 7});
+```
+</div>
+
+
+---
+
+# Satané Javascript (4)
+
+<img align="right" src="diabolo.jpg" width="12%" style="margin:10px;" />
+
+Il faut tout de même noter que  de nombreuses librairies permettent de simplifier certaines de ces écritures. jQuery et Underscore en font partie et permettront d'écrire plus rapidement certaines blocs en les important.
+
+Notez que si vous trouvez un jour `vanilla javascript`, cela signifie que c'est du javascript pur sans librairie.
+
+<div class="two-pre">
+
+```js
+// Javascript Vanilla
+var def = {
+  "a": 2,
+  "b": 5
+};
+if (!opt) {
+  opt = def;
+} else {
+  for (var cle in def) {
+  if (!opt[cle]) {
+    opt[cle] = def[cle];
+  }
+}
+```
+
+```js
+// jQuery
+var def = {
+  "a": 2,
+  "b": 5
+};
+$.extend(true, opt, def);
+```
+
+```js
+// Underscore.js
+var def = {
+  "a": 2,
+  "b": 5
+};
+opt = _.extend(opt, def);
 ```
 
 </div>
@@ -311,7 +611,6 @@ while i < 100:
 ---
 
 # Fonctions
-
 
 <div class="two-pre">
 
@@ -387,7 +686,7 @@ print(conjugue("chanter", 2, 2)
 
 </div>
 
-Attention : pas de paramètres nommés en javascript ES5. On utilisera un dictionnaire si on en ressent le besoin.
+**Attention:** pas de paramètres nommés en javascript ES5. On utilisera un dictionnaire si on en ressent le besoin.
 
 ---
 

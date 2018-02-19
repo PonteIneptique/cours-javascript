@@ -1,8 +1,7 @@
 .slide {
     justify-content: initial!important;
 }
-.slide p, .slide li { font-size:0.80em; }
-.slide li li { font-size:1em; }
+.slide p, .slide li { font-size:0.80em; line-height: 1em; }
 .slide h2, .slide h1 { padding-bottom:0.1em; }
 .slide pre { font-size:0.8em; }
 .slide table { font-size:0.7em; }

@@ -28,7 +28,7 @@ var monNombre = 15;
 Compléter le code suivant afin de réaliser un code html comprenant des `<li>` pour chacun des vers, un `article` encapsulant le texte et un `header` et `footer` pour compléter le tout avec les métadonnées.
 
 ```javascript
-vat texte = {
+var texte = {
     "meta":"line",
     "author":"aeschylus",
     "credit":"OpenGreekAndLatin",

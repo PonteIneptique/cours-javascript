@@ -63,7 +63,7 @@ Ce cours n'a pas été écrit en utilisant la syntaxe nouvelle de ES 6 et ES 7, 
 # Qu'est-ce que javascript ?
 
 
-<img align="right" src="javascript_java.jpg" width="30%" style="margin:5px;" />
+<img align="right" src="./images/javascript_java.jpg" width="30%" style="margin:5px;" />
 
 1. Javascript est originellement un langage prévu pour l'interaction sur une page web. Il permet d'altérer le code HTML de la page après son envoi par le serveur.
 2. Contrairement au serveur, Javascript possède des informations sur l'interface de l'utilisateur : taille de fenêtre, position du curseur, etc.
@@ -76,7 +76,7 @@ Ce cours n'a pas été écrit en utilisant la syntaxe nouvelle de ES 6 et ES 7, 
 
 # Courte histoire du javascript
 
-![Histoire du Javascript](histoire_js.png)
+![Histoire du Javascript](images/histoire_js.png)
 
 - Création : 1995
 - Dernière version ES7@
@@ -90,7 +90,7 @@ Ce cours n'a pas été écrit en utilisant la syntaxe nouvelle de ES 6 et ES 7, 
 
 # Où se situe le javascript dans le Web ?
 
-![Où ?](javascript.png)
+![Où ?](images/javascript.png)
 
 ---
 
@@ -444,7 +444,7 @@ for cle in dico {
 
 # Satané Javascript
 
-<img align="right" src="diabolo.jpg" width="25%" style="margin:20px;" />
+<img align="right" src="./images/diabolo.jpg" width="25%" style="margin:20px;" />
 
 1. Il n'est pas possible de comparer des listes et des objets entre eux-elles
 
@@ -468,7 +468,7 @@ var x = function(z) { console.log(z); };
 
 # Satané Javascript (2)
 
-<img align="right" src="diabolo.jpg" width="25%" style="margin:15px;" />
+<img align="right" src="./images/diabolo.jpg" width="25%" style="margin:15px;" />
 
 Python : `[1, 2] == [1, 2]`
 
@@ -505,7 +505,7 @@ comp_liste([1, 2, [7, 8]], [1, 2, [7, 8]]);
 
 # Satané Javascript (3)
 
-<img align="right" src="diabolo.jpg" width="12%" style="margin:10px;" />
+<img align="right" src="./images/diabolo.jpg" width="12%" style="margin:10px;" />
 
 Python : 
 
@@ -540,7 +540,7 @@ affine(2, {"b": 7});
 
 # Satané Javascript (4)
 
-<img align="right" src="diabolo.jpg" width="12%" style="margin:10px;" />
+<img align="right" src="./images/diabolo.jpg" width="12%" style="margin:10px;" />
 
 Il faut tout de même noter que  de nombreuses librairies permettent de simplifier certaines de ces écritures. jQuery et Underscore en font partie et permettront d'écrire plus rapidement certaines blocs en les important.
 

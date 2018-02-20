@@ -2,6 +2,7 @@
     justify-content: initial!important;
 }
 .slide p, .slide li { font-size:0.80em; line-height: 1em; }
+.slide li li { font-size: 1em!important;}
 .slide h2, .slide h1 { padding-bottom:0.1em; }
 .slide pre { font-size:0.8em; }
 .slide table { font-size:0.7em; }
@@ -21,3 +22,6 @@
     margin:0 5px;
     font-size:0.55em;
 }
+
+.slide img[alt~="right"] { float:right; margin:10px; max-width: 50%; }
+.slide img[alt~="-center"] { margin:0 auto; display:block; }

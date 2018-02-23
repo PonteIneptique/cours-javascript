@@ -1,0 +1,78 @@
+<html>
+  <head>
+     <meta charset="UTF-8" />
+     <title>Correction ajout de champ de formulaire</title>
+     <link rel="stylesheet" href="../../assets/bootstrap.css">
+     <script type="text/javascript" src="../../assets/jquery.js"></script>
+     <script type="text/javascript">
+        $(document).ready(function() {
+         /**
+          Si l'on utilise $(".add-alternate-name"), les nouveaux éléments créés ne seront pas connecté.
+          Le deuxième paramètre de .on() peut cibler un sous-élément original ou dynamiquement généré.
+
+          https://api.jquery.com/on/
+         */
+         $("#alternate-name-container").on("click", ".add-alternate-name", function (event) {
+            event.preventDefault();
+            var current = $(this);
+            var new_element = `<div class="form-group row alternate-name-div">
+                <label class="col-sm-2 col-form-label">Nom alternatif</label>
+                <div class="col-sm-10">
+                  <div class="input-group">
+                      <input type="text" class="form-control" name="nom[]" placeholder="Nom">
+                      <input type="text" class="form-control" name="lang[]" size="3" placeholder="Langue" >
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-success add-alternate-name" type="button">Ajouter</button>
+                        <button class="btn btn-outline-danger delete-current-button" type="button">Supprimer</button>
+                      </div>
+                  </div>
+                </div>
+            </div>`;
+            $("#alternate-name-container").append($(new_element));
+         });
+         $("#alternate-name-container").on("click", ".delete-current-button", function (event) {
+            event.preventDefault();
+            var current = $(this),
+                parent  = current.parents(".alternate-name-div");
+            parent.remove();
+         });
+        });
+     </script>
+ </head>
+ <body>
+    <div class="container">
+        <h1>Ajout Input</h1>
+        <dl>
+            <dt>Documentation CSS - Formulaire horizontal</dt>
+                <dd><a href="https://getbootstrap.com/docs/4.0/components/forms/#horizontal-form">https://getbootstrap.com/docs/4.0/components/forms/#horizontal-form</a></dd>
+            <dt>Documentation CSS - Groupes de boutons</dt>
+                <dd><a href="https://getbootstrap.com/docs/4.0/components/input-group/#button-addons">https://getbootstrap.com/docs/4.0/components/input-group/#button-addons</a></dd>
+            <dt>Documentation JS - Évènement .on()></dt>
+                <dd><a href="https://api.jquery.com/on/">https://api.jquery.com/on/</a></dd>
+            <dt>
+        </dl>
+        <form>
+          <div id="alternate-name-container">
+            <div class="form-group row alternate-name-div">
+                <label class="col-sm-2 col-form-label">Nom alternatif</label>
+                <div class="col-sm-10">
+                  <div class="input-group">
+                      <input type="text" class="form-control" name="nom[]" placeholder="Nom">
+                      <input type="text" class="form-control" name="lang[]" size="3" placeholder="Langue" >
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-success add-alternate-name" type="button">Ajouter</button>
+                        <button class="btn btn-outline-danger disabled" type="button">Supprimer</button>
+                      </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </form>
+        <h1>Gestion d'un input multiple avec Flask</h1>
+        <p><i>cf.</i><a href="https://stackoverflow.com/questions/24808660/sending-a-form-array-to-flask#24808706">https://stackoverflow.com/questions/24808660/sending-a-form-array-to-flask#24808706</a></p>
+        <pre>from flask import request
+liste_nom = request.form.getlist("nom[]")
+        </pre>
+    </div>
+</body>
+</html>

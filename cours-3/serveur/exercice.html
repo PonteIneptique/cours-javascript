@@ -1,0 +1,52 @@
+<html>
+  <head>
+     <meta charset="UTF-8" />
+     <title>Correction ajout de champ de formulaire</title>
+     <link rel="stylesheet" href="../../assets/bootstrap.css">
+     <script type="text/javascript" src="../../assets/jquery.js"></script>
+     <script type="text/javascript">
+        $(document).ready(function() {
+          // http://localhost:8000/json/latinLit.json
+         $("#textes").on("change", function (event) {
+            var current = $(this);
+            alert(current.value());
+         });
+        });
+     </script>
+ </head>
+ <body>
+    <div class="container">
+        <input id="textes" class="form-control" placeholder="Rechercher" value="apuleius">
+        <hr />
+        <div id="contenu">
+            <!-- Ceci est un exemple de résultat trié 
+            Dans les noms de fichier, __ sépare les champs (auteur__titre__langue.json)
+            Les _ sont remplaçables par des espaces
+
+            JSON : http://localhost:8000/json/latinLit.json
+            -->
+            <table class="table">
+                <thead>
+                    <tr><th>Auteur</th><th>Titre</th><th>Langue</th><th>Taille</th><th>URL</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>apuleius</td>
+                        <td>apologia</td>
+                        <td>lat</td>
+                        <td>156584</td>
+                        <td><a href="https://raw.githubusercontent.com/PonteIneptique/capitains_text_corpora/master/latinLit/apuleius__apologia__lat.json">Télécharger</a>
+                    </tr>
+                    <tr>
+                        <td>apuleius</td>
+                        <td>florida</td>
+                        <td>lat</td>
+                        <td>58512</td>
+                        <td><a href="https://raw.xn--githubusercoeius__florida__lat-rf96n.json/">Télécharger</a>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

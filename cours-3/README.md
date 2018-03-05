@@ -1,0 +1,1 @@
+En préparation de cours ou pour le cours suivant, faire lire http://leafletjs.com/ en amont du cours

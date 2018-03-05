@@ -1,0 +1,40 @@
+<html>
+  <head>
+     <meta charset="UTF-8" />
+     <title>Correction ajout de champ de formulaire</title>
+     <link rel="stylesheet" href="../../assets/bootstrap.css">
+     <script type="text/javascript" src="../../assets/jquery.js"></script>
+     <script type="text/javascript">
+        $(document).ready(function() {
+         /**
+          Si l'on utilise $(".add-alternate-name"), les nouveaux éléments créés ne seront pas connecté.
+          Le deuxième paramètre de .on() peut cibler un sous-élément original ou dynamiquement généré.
+
+          https://api.jquery.com/on/
+         */
+         $("#textes").on("change", function (event) {
+            var current = $(this);
+            alert(current.val());
+         });
+        });
+     </script>
+ </head>
+ <body>
+    <div class="container">
+        <select id="textes" class="form-control">
+            <option disabled="true">Sélectionnez un texte</option>
+            <option value="./json/ovid__amores__eng.json">amores</option>
+            <option value="./json/ovid__art_of_beauty__eng.json">art_of_beauty</option>
+            <option value="./json/ovid__art_of_love__eng.json">art_of_love</option>
+            <option value="./json/ovid__epistulae__eng.json">epistulae</option>
+            <option value="./json/ovid__letters_from_black_sea__lat.json">letters_from_black_sea</option>
+            <option value="./json/ovid__metamorphoses__eng.json">metamorphoses</option>
+            <option value="./json/ovid__remedy_of_love__eng.json">remedy_of_love</option>
+        </select>
+        <hr />
+        <div id="contenu">
+            
+        </div>
+    </div>
+</body>
+</html>

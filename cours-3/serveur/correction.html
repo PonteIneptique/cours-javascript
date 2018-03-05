@@ -6,15 +6,48 @@
      <script type="text/javascript" src="assets/jquery.js"></script>
      <script type="text/javascript">
         $(document).ready(function() {
-         /**
-          Si l'on utilise $(".add-alternate-name"), les nouveaux éléments créés ne seront pas connecté.
-          Le deuxième paramètre de .on() peut cibler un sous-élément original ou dynamiquement généré.
 
-          https://api.jquery.com/on/
-         */
+         // On définit une fonction qui nous permet de vérifier 
+         //   qu'on ne retourne pas sur le même texte
+         var current_texte = null;
+
+         // On définit une fonction qui nous permettra de gérer la récursion
+         var print_level = function(data, identifier) {
+            // Si identifier n'existe pas, on le remplit d'une liste
+            if (identifier === undefined) { var identifier = []; }
+            var result = "";
+            console.log(data);  
+            for (var i in data) {
+                var current_identifier = identifier.concat(i);
+                console.log(typeof data[i]);
+                if (typeof data[i] === "string") {
+                    // Si on a une chaîne, on l'ajoute
+                    result = result + `<section id="passage_`+current_identifier.join("_")+`"><a class="btn btn-small btn-link" href="#passage_`+current_identifier.join("_")+`">`+current_identifier.join(".")+`</a></em>`+data[i]+`</section>`;
+                } else {
+                    result = result + `<section id="passage_`+current_identifier.join("_")+`"><a class="btn btn-small btn-link" href="#passage_`+current_identifier.join("_")+`">`+current_identifier.join(".")+`</a></em>`+print_level(data[i], current_identifier)+`</section>`;
+                }
+            }
+            return result;
+         }
          $("#textes").on("change", function (event) {
             var current = $(this);
-            alert(current.val());
+            if (current.val() != current_texte) {
+                current_texte = current.val();
+                $.ajax(current_texte)
+                    .done(function(data) {
+                        var header = `<header>
+                                        <h1>`+data.work+`</h1>
+                                        <h2>`+data.author+`</h2>
+                                        <small>URN : `+data.urn+`</small>
+                                      </header>`;
+                        var body = `<section>`+print_level(data.text)+`</section>`;
+                        console.log(print_level(data.text));
+                        $("#contenu").html("<article>"+header+body+"</article>");
+                    })
+                    .fail(function(xhr_object) {
+                        $("#contenu").html(`<div class="alert alert-danger">Une erreur est survenue</div>`);
+                    });
+            }
          });
         });
      </script>
@@ -31,6 +64,8 @@
             <option value="./json/ovid__metamorphoses__eng.json">metamorphoses</option>
             <option value="./json/ovid__remedy_of_love__eng.json">remedy_of_love</option>
         </select>
+        <hr />
+        Essayer de faire fonctionner d'abord avec Remedy of Love ou Art of Love.
         <hr />
         <div id="contenu">
             

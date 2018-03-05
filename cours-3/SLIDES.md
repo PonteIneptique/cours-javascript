@@ -37,6 +37,8 @@ console.log(x);
 
 # Ajax : les promesses
 
+http://api.jquery.com/jQuery.ajax/
+
 ```javascript
 var jqxhr = $.ajax("http://google.fr")
   .done(function() {
@@ -55,6 +57,19 @@ var jqxhr = $.ajax("http://google.fr")
 ---
 
 # Ajax (4) : exercice en groupe
+
+## Mise en place
+- - Aller dans le dossier `cours-javascript/cours-3/serveur`
+- Exécutez `python -m SimpleHTTPServer` qui ouvrira un serveur simple sur http://localhost:8000
+	- Un fichier HTML = Une page
+	- Cela permet de travailler dans des conditions proches du web sans forcément avoir la lourdeur de création de vrai serveur
+	- **Important** : Nous utilisons cet outil afin de pouvoir faire des requêtes AJAX depuis de simples fichiers HTML. En effet, le mode ouverture classique (avec des adresses en `file:// `) ne permet pas l'exécution de requêtes AJAX pour des raisons de sécurité.
+
+## Objectif
+
+- On surveillera les changements de `select`
+	- Le `select` nous pointe vers des URLS de fichiers JSON tous construits sur le même principe
+- On affichera le texte et les métadonnées affiliées dans la `div#contenu`
 
 ---
 

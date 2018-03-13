@@ -1,0 +1,32 @@
+<html>
+  <head>
+  </head>
+  <body>
+
+      <div id="container_inputlang">
+        <div class="ligne">
+            <input type="text" name="nom[]" />
+            <input type="text" name="lang[]" />
+            <button class="add-inputlang">+</button>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery­-3.3.1.min.js">
+      </script> 
+      <script type="text/javascript">
+        $(document).ready(function ($){
+           // Votre code ici !
+           // $(".add-inputlang").on("click", function (e) {
+           $("#container_inputlang").on("click", ".add-inputlang", function (event) {
+                var html = $(`<div class="ligne">
+           }
+            <input type="text" name="nom[]" />
+            <input type="text" name="lang[]" />
+            <button class="add-inputlang">+</button>
+            <button class="del-inputlang">-</button>
+        </div>`);
+                $("#container_inputlang").append(html);
+           });
+        });
+      </script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+  <head>
+     <meta charset="UTF-8" />
+     <title>Usage de Typeahead</title>
+     <link rel="stylesheet" href="assets/css/leaflet.css">
+     <script type="text/javascript" src="assets/js/jquery.js"></script>
+     <script type="text/javascript" src="assets/js/typeahead.js"></script>
+     <script type="text/javascript">
+        $(document).ready(function() {
+            // https://twitter.github.io/typeahead.js/examples/
+            var lieux = new Bloodhound({
+              datumTokenizer: function (datum) {
+                return Bloodhound.tokenizers.whitespace(datum.title)
+              },
+              queryTokenizer: Bloodhound.tokenizers.whitespace,
+              identify : function(datum) { return datum.title; },
+              // https://github.com/twitter/typeahead.js/blob/master/doc/bloodhound.md
+              prefetch: {
+                url: 'json/places.json',
+                cache: false,
+                transform: function(data) {
+                    var ret = [];
+                    for (var pid in data.places) {
+                        ret.push(data.places[pid])
+                    }
+                    return ret;
+                }
+              }
+            });
+
+            // https://github.com/twitter/typeahead.js/blob/master/doc/jquery_typeahead.md
+            // passing in `null` for the `options` arguments will result in the default
+            // options being used
+            $('#autocompletion_exemple').typeahead(null, {
+              name: 'lieux',
+              source: lieux,
+              display: function(datum) { return datum.title; }
+            });
+        });
+     </script>
+ </head>
+ <body>
+    <div class="container">
+        <h1>Autocomplétion</h1>
+        <div class="container">
+            <input type="text" class="typeahead" name="lieux" id="autocompletion_exemple" />
+        </div>
+    </div>
+</body>
+</html>

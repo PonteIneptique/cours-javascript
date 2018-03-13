@@ -1,0 +1,3445 @@
+{
+  "places": {
+    "1052": {
+      "bbox": [
+        10.0,
+        40.0,
+        15.0,
+        45.0
+      ],
+      "description": "The Italian peninsula extending northward to the Alps as recognized by the Romans.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  10.0,
+                  40.0
+                ],
+                [
+                  10.0,
+                  45.0
+                ],
+                [
+                  15.0,
+                  45.0
+                ],
+                [
+                  15.0,
+                  40.0
+                ],
+                [
+                  10.0,
+                  40.0
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "id": "batlas-location",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/1052/batlas-location",
+            "location_precision": "rough",
+            "title": "Barrington Atlas location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "1052",
+      "names": [
+        "Italia"
+      ],
+      "reprPoint": [
+        12.5,
+        42.5
+      ],
+      "title": "Italia",
+      "type": "FeatureCollection"
+    },
+    "1273": {
+      "bbox": [
+        25.0,
+        45.0,
+        30.0,
+        50.0
+      ],
+      "description": "An ancient place, cited: BAtlas 1 I1 Scythia",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  25.0,
+                  45.0
+                ],
+                [
+                  25.0,
+                  50.0
+                ],
+                [
+                  30.0,
+                  50.0
+                ],
+                [
+                  30.0,
+                  45.0
+                ],
+                [
+                  25.0,
+                  45.0
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "id": "batlas-location",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/1273/batlas-location",
+            "location_precision": "rough",
+            "title": "Barrington Atlas location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "1273",
+      "names": [
+        "Scythia",
+        "Skythai"
+      ],
+      "reprPoint": [
+        27.5,
+        47.5
+      ],
+      "title": "Scythia",
+      "type": "FeatureCollection"
+    },
+    "1332": {
+      "bbox": [
+        22.2,
+        39.6,
+        22.2,
+        39.6
+      ],
+      "description": "Thessalia (Thessaly) was a region of ancient Greece.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              22.2,
+              39.6
+            ],
+            "type": "Point"
+          },
+          "id": "location-of-thessalia",
+          "properties": {
+            "description": "coordinates after GeoHack.",
+            "link": "http://pleiades.stoa.org/places/1332/location-of-thessalia",
+            "location_precision": "precise",
+            "title": "location of Thessalia"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "1332",
+      "names": [
+        "Thessalia"
+      ],
+      "reprPoint": [
+        22.2,
+        39.6
+      ],
+      "title": "Thessalia",
+      "type": "FeatureCollection"
+    },
+    "197544": {
+      "bbox": [
+        16.0,
+        43.0,
+        17.0,
+        44.0
+      ],
+      "description": "An ancient place, cited: BAtlas 20 D6 Tauris Ins.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  16.0,
+                  43.0
+                ],
+                [
+                  16.0,
+                  44.0
+                ],
+                [
+                  17.0,
+                  44.0
+                ],
+                [
+                  17.0,
+                  43.0
+                ],
+                [
+                  16.0,
+                  43.0
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "id": "undetermined",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/197544/undetermined",
+            "location_precision": "rough",
+            "title": "Undetermined location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "197544",
+      "names": [
+        "Tauris"
+      ],
+      "reprPoint": [
+        16.5,
+        43.5
+      ],
+      "title": "Tauris Ins.",
+      "type": "FeatureCollection"
+    },
+    "240868": {
+      "description": "An ancient place, cited: BAtlas 24 unlocated Attica/Bergida",
+      "features": [
+        {
+          "id": "batlas-location",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/240868/batlas-location",
+            "location_precision": "unlocated",
+            "title": "Barrington Atlas location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "240868",
+      "names": [
+        "Attica",
+        "Bergida"
+      ],
+      "reprPoint": [
+        -7.0,
+        42.0
+      ],
+      "title": "Attica/Bergida",
+      "type": "FeatureCollection"
+    },
+    "422824": {
+      "bbox": [
+        12.65048,
+        41.746447,
+        12.65048,
+        41.746447
+      ],
+      "connectsWith": [
+        "422825",
+        "422826"
+      ],
+      "description": "Alba Longa, located in the Alba Hills southeast of Rome, was the chief city and founder of the Latin League. Conflict with Rome caused Alba's destruction in the seventh century BC. The legendary history of Romulus and Remus connects them to the royal lineage of the city.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              12.65048,
+              41.746447
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-18170",
+          "properties": {
+            "description": "150K scale point location",
+            "link": "http://pleiades.stoa.org/places/422824/darmc-location-18170",
+            "location_precision": "precise",
+            "title": "DARMC location 18170"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "422824",
+      "names": [
+        "Alba Longa"
+      ],
+      "reprPoint": [
+        12.65048,
+        41.746447
+      ],
+      "title": "Alba Longa?",
+      "type": "FeatureCollection"
+    },
+    "422863": {
+      "bbox": [
+        12.486137,
+        41.8917,
+        12.4862,
+        41.891775
+      ],
+      "connectsWith": [
+        "423025"
+      ],
+      "description": "The Campus Martius or \"field of Mars\" is the name given to the level ground between the slopes of the Capitoline, the Quirinal, and Pincian hills, and the Tiber river.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  12.25,
+                  41.75
+                ],
+                [
+                  12.25,
+                  42.0
+                ],
+                [
+                  12.5,
+                  42.0
+                ],
+                [
+                  12.5,
+                  41.75
+                ],
+                [
+                  12.25,
+                  41.75
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "id": "batlas-location",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/422863/batlas-location",
+            "location_precision": "rough",
+            "title": "Barrington Atlas location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "422863",
+      "names": [
+        "Campus Martius"
+      ],
+      "reprPoint": [
+        12.4861685,
+        41.8917375
+      ],
+      "title": "Campus Martius",
+      "type": "FeatureCollection"
+    },
+    "422914": {
+      "bbox": [
+        12.527692,
+        42.017205,
+        12.527692,
+        42.017205
+      ],
+      "description": "An ancient town of Latium located at the headwaters of the Allia river, very close to the territory of the Sabines, Crustumerium figures in Rome's early history. The Romans conquered the site in 500 BC and formed the tribus Crustumina or Clustumina  in 471 BC.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              12.527692,
+              42.017205
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-18391",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/422914/darmc-location-18391",
+            "location_precision": "precise",
+            "title": "DARMC location 18391"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "422914",
+      "names": [
+        "Crustumerium"
+      ],
+      "reprPoint": [
+        12.527692,
+        42.017205
+      ],
+      "title": "Crustumerium",
+      "type": "FeatureCollection"
+    },
+    "422923": {
+      "bbox": [
+        12.515431,
+        41.982053,
+        12.515431,
+        41.982053
+      ],
+      "connectsWith": [
+        "423080",
+        "18271457"
+      ],
+      "description": "Fidenae was an ancient city of Latium.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              12.515431,
+              41.982053
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-18438",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/422923/darmc-location-18438",
+            "location_precision": "precise",
+            "title": "DARMC location 18438"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "422923",
+      "names": [
+        "Fidenae"
+      ],
+      "reprPoint": [
+        12.515431,
+        41.982053
+      ],
+      "title": "Fidenae",
+      "type": "FeatureCollection"
+    },
+    "422960": {
+      "bbox": [
+        12.480199,
+        41.663939,
+        12.480199,
+        41.663939
+      ],
+      "connectsWith": [
+        "422988",
+        "18271443"
+      ],
+      "description": "An ancient city of Latium. Founded, according to Virgil, by Aeneas.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              12.480199,
+              41.663939
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/422960/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              12.481242,
+              41.665009
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-18510",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/422960/darmc-location-18510",
+            "location_precision": "precise",
+            "title": "DARMC location 18510"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "422960",
+      "names": [
+        "Lavinium"
+      ],
+      "reprPoint": [
+        12.480199,
+        41.663939
+      ],
+      "title": "Lavinium",
+      "type": "FeatureCollection"
+    },
+    "423025": {
+      "bbox": [
+        12.486137,
+        41.8917,
+        12.4862,
+        41.891775
+      ],
+      "connectsWith": [
+        "502042016",
+        "303999556",
+        "741499023",
+        "188535571",
+        "74935822",
+        "390205932",
+        "356966898",
+        "737328394",
+        "231839930",
+        "136661131",
+        "423080",
+        "174900201",
+        "447759107",
+        "18271457",
+        "856514595",
+        "622606468",
+        "93042695",
+        "699256589",
+        "587835546"
+      ],
+      "description": "The capital of the Roman Republic and Empire.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              12.4862,
+              41.8917
+            ],
+            "type": "Point"
+          },
+          "id": "temple-of-vesta",
+          "properties": {
+            "description": "Location as derived from Google Earth, specifically the Temple of Vesta in the Roman Forum.",
+            "link": "http://pleiades.stoa.org/places/423025/temple-of-vesta",
+            "location_precision": "precise",
+            "title": "Temple of Vesta"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              12.486137,
+              41.891775
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-30635",
+          "properties": {
+            "description": "150K scale point location",
+            "link": "http://pleiades.stoa.org/places/423025/darmc-location-30635",
+            "location_precision": "precise",
+            "title": "DARMC location 30635"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "423025",
+      "names": [
+        "Rome",
+        "Roma"
+      ],
+      "reprPoint": [
+        12.4861685,
+        41.8917375
+      ],
+      "title": "Roma",
+      "type": "FeatureCollection"
+    },
+    "423080": {
+      "bbox": [
+        12.547643,
+        42.072946,
+        12.547643,
+        42.072946
+      ],
+      "connectsWith": [
+        "1356",
+        "423031"
+      ],
+      "description": "The Tiber river is the third-longest river of the Italian peninsula, flowing 406 km (252 mi) from the Apennine Mountains to the Tyrrhenian Sea.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              12.547643,
+              42.072946
+            ],
+            "type": "Point"
+          },
+          "id": "location-of-course-of-Tiberis-fl",
+          "properties": {
+            "description": "Location based on OpenStreetMap",
+            "link": "http://pleiades.stoa.org/places/423080/location-of-course-of-Tiberis-fl",
+            "location_precision": "precise",
+            "title": "location of course of Tiber (river)"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "423080",
+      "names": [
+        "Albula",
+        "Tevere",
+        "Thybris",
+        "Tiber",
+        "Tiberis"
+      ],
+      "reprPoint": [
+        12.547643,
+        42.072946
+      ],
+      "title": "Tiberis (river)",
+      "type": "FeatureCollection"
+    },
+    "423116": {
+      "bbox": [
+        12.390519,
+        42.013631,
+        12.407297,
+        42.021338
+      ],
+      "connectsWith": [
+        "413122",
+        "690508612"
+      ],
+      "description": "An important city of South Etruria located north-northwest of Rome, Veii was eventually sacked by the Romans in 396 BC. The ancient city covered some 180 ha.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              12.3936447,
+              42.0264865
+            ],
+            "type": "Point"
+          },
+          "id": "location-of-campetti-decumano",
+          "properties": {
+            "description": "Location based on OpenStreetMap",
+            "link": "http://pleiades.stoa.org/places/423116/location-of-campetti-decumano",
+            "location_precision": "precise",
+            "title": "location of Campetti - Decumano"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              12.3894788,
+              42.0228509
+            ],
+            "type": "Point"
+          },
+          "id": "location-of-archaeological-area-of-villa-campetti",
+          "properties": {
+            "description": "Location based on OpenStreetMap",
+            "link": "http://pleiades.stoa.org/places/423116/location-of-archaeological-area-of-villa-campetti",
+            "location_precision": "precise",
+            "title": "location of archaeological area of Villa Campetti"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              12.3997063,
+              42.0239218
+            ],
+            "type": "Point"
+          },
+          "id": "archaeological-area-of-piano-della-comunita",
+          "properties": {
+            "description": "Location based on OpenStreetMap",
+            "link": "http://pleiades.stoa.org/places/423116/archaeological-area-of-piano-della-comunita",
+            "location_precision": "precise",
+            "title": "location of archaeological area of Piano della Comunit\u00e0"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              12.4054768,
+              42.0173468
+            ],
+            "type": "Point"
+          },
+          "id": "location-of-archaeological-area-of-macchia-grande",
+          "properties": {
+            "description": "Location based on OpenStreetMap",
+            "link": "http://pleiades.stoa.org/places/423116/location-of-archaeological-area-of-macchia-grande",
+            "location_precision": "precise",
+            "title": "location of archaeological area of Macchia Grande"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              12.407297,
+              42.013631
+            ],
+            "type": "Point"
+          },
+          "id": "piazza-darmi",
+          "properties": {
+            "description": "The site of the arx of ancient Veii",
+            "link": "http://pleiades.stoa.org/places/423116/piazza-darmi",
+            "location_precision": "precise",
+            "title": "Piazza d'Armi"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              12.390833,
+              42.021111
+            ],
+            "type": "Point"
+          },
+          "id": "portonaccio-sanctuary",
+          "properties": {
+            "description": "The Portonaccio sanctuary of Etruscan Veii",
+            "link": "http://pleiades.stoa.org/places/423116/portonaccio-sanctuary",
+            "location_precision": "precise",
+            "title": "Portonaccio sanctuary"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              12.390519,
+              42.021338
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-18991",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/423116/darmc-location-18991",
+            "location_precision": "precise",
+            "title": "DARMC location 18991"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "423116",
+      "names": [
+        "Veio",
+        "Veii"
+      ],
+      "reprPoint": [
+        12.3962163333,
+        42.0186933333
+      ],
+      "title": "Veii",
+      "type": "FeatureCollection"
+    },
+    "432712": {
+      "bbox": [
+        14.075,
+        40.838333,
+        14.075,
+        40.838333
+      ],
+      "connectsWith": [
+        "432744"
+      ],
+      "description": "A volcanic crater lake located within the Phlegraean Fields, Avernus served a major ritual role for ancient Romans and Greeks a they viewed it as an entrance to Hades.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              14.075,
+              40.838333
+            ],
+            "type": "Point"
+          },
+          "id": "centerpoint-of-avernus-lacus",
+          "properties": {
+            "description": "verified in Google Earth 2013",
+            "link": "http://pleiades.stoa.org/places/432712/centerpoint-of-avernus-lacus",
+            "location_precision": "precise",
+            "title": "centerpoint of Avernus Lacus"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "432712",
+      "names": [
+        "Avernus L.",
+        "Lago d'Averno"
+      ],
+      "reprPoint": [
+        14.075,
+        40.838333
+      ],
+      "title": "Avernus L.",
+      "type": "FeatureCollection"
+    },
+    "438675": {
+      "description": "An ancient place, cited: BAtlas 44 unlocated Amyclae",
+      "features": [
+        {
+          "id": "batlas-location",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/438675/batlas-location",
+            "location_precision": "unlocated",
+            "title": "Barrington Atlas location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "438675",
+      "names": [
+        "Amyclae"
+      ],
+      "reprPoint": [
+        14.75,
+        40.75
+      ],
+      "title": "Amyclae",
+      "type": "FeatureCollection"
+    },
+    "438703": {
+      "description": "An ancient place, cited: BAtlas 44 unlocated Caenina",
+      "features": [
+        {
+          "id": "batlas-location",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/438703/batlas-location",
+            "location_precision": "unlocated",
+            "title": "Barrington Atlas location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "438703",
+      "names": [
+        "Caenina"
+      ],
+      "reprPoint": [
+        14.75,
+        40.75
+      ],
+      "title": "Caenina",
+      "type": "FeatureCollection"
+    },
+    "442633": {
+      "bbox": [
+        14.9005621,
+        40.2512508,
+        14.9005621,
+        40.2512508
+      ],
+      "description": "An ancient place, cited: BAtlas 45 A4 Leucosia Ins.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              14.9005621,
+              40.2512508
+            ],
+            "type": "Point"
+          },
+          "id": "location-of-Leucosia-Ins",
+          "properties": {
+            "description": "Location based on OpenStreetMap",
+            "link": "http://pleiades.stoa.org/places/442633/location-of-Leucosia-Ins",
+            "location_precision": "precise",
+            "title": "location of Leucosia Ins."
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "442633",
+      "names": [
+        "Leucosia"
+      ],
+      "reprPoint": [
+        14.9005621,
+        40.2512508
+      ],
+      "title": "Leucosia Ins.",
+      "type": "FeatureCollection"
+    },
+    "462157": {
+      "bbox": [
+        15.660384,
+        38.260268,
+        15.660384,
+        38.260268
+      ],
+      "connectsWith": [
+        "462494"
+      ],
+      "description": "Charybdis was a sea monster that was rationalized in the form of a whirlpool located in the Strait of Messina.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              15.660384,
+              38.260268
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-23176",
+          "properties": {
+            "description": "Point location",
+            "link": "http://pleiades.stoa.org/places/462157/darmc-location-23176",
+            "location_precision": "precise",
+            "title": "DARMC location 23176"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "462157",
+      "names": [
+        "Charybdis"
+      ],
+      "reprPoint": [
+        15.660384,
+        38.260268
+      ],
+      "title": "Charybdis",
+      "type": "FeatureCollection"
+    },
+    "462492": {
+      "bbox": [
+        11.9999826,
+        36.791428,
+        15.556634,
+        39.9999753
+      ],
+      "connectsWith": [
+        "776",
+        "1356"
+      ],
+      "description": "Sicily is the largest island in the Mediterranean Sea and has been the site of human habitation since ca. 8,000 BC. In historical terms Sicily has seen important settlement activity connected to numerous culture groups - Punic, Carthaginian, Greek, Roman, Vandalic, Ostrogothic, Byzantine, Arabic, and Norman.",
+      "id": "462492",
+      "names": [
+        "Sicily",
+        "Sicilia"
+      ],
+      "reprPoint": [
+        14.202599828,
+        37.5642630225
+      ],
+      "title": "Sicilia (island)",
+      "type": "FeatureCollection"
+    },
+    "481787": {
+      "bbox": [
+        19.0,
+        40.0,
+        20.0,
+        41.0
+      ],
+      "description": "An ancient place, cited: BAtlas 49 B3 Chaonia",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  19.0,
+                  40.0
+                ],
+                [
+                  19.0,
+                  41.0
+                ],
+                [
+                  20.0,
+                  41.0
+                ],
+                [
+                  20.0,
+                  40.0
+                ],
+                [
+                  19.0,
+                  40.0
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "id": "batlas-location",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/481787/batlas-location",
+            "location_precision": "rough",
+            "title": "Barrington Atlas location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "481787",
+      "names": [
+        "Chaonia"
+      ],
+      "reprPoint": [
+        19.5,
+        40.5
+      ],
+      "title": "Chaonia",
+      "type": "FeatureCollection"
+    },
+    "491677": {
+      "bbox": [
+        22.358611,
+        40.085556,
+        22.358611,
+        40.085556
+      ],
+      "description": "Olympus M. is the highest mountain in Greece, located in the Olympus Range.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  22.0,
+                  40.0
+                ],
+                [
+                  22.0,
+                  40.5
+                ],
+                [
+                  22.5,
+                  40.5
+                ],
+                [
+                  22.5,
+                  40.0
+                ],
+                [
+                  22.0,
+                  40.0
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "id": "batlas-location",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/491677/batlas-location",
+            "location_precision": "rough",
+            "title": "Barrington Atlas location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "491677",
+      "names": [
+        "Olympus M."
+      ],
+      "reprPoint": [
+        22.358611,
+        40.085556
+      ],
+      "title": "Olympus M.",
+      "type": "FeatureCollection"
+    },
+    "501386": {
+      "bbox": [
+        26.5,
+        40.33333,
+        26.5,
+        40.33333
+      ],
+      "description": "An ancient place, cited: BAtlas 51 G4 Chersonesus",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              26.5,
+              40.33333
+            ],
+            "type": "Point"
+          },
+          "id": "location-of-gallipoli-peninsula",
+          "properties": {
+            "description": "GeoNames location",
+            "link": "http://pleiades.stoa.org/places/501386/location-of-gallipoli-peninsula",
+            "location_precision": "precise",
+            "title": "Location of Gallipoli Peninsula"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "501386",
+      "names": [
+        "Chersonesus"
+      ],
+      "reprPoint": [
+        26.5,
+        40.33333
+      ],
+      "title": "Chersonesus",
+      "type": "FeatureCollection"
+    },
+    "501434": {
+      "bbox": [
+        26.4,
+        40.2,
+        26.4,
+        40.2
+      ],
+      "connectsWith": [
+        "560221",
+        "511381"
+      ],
+      "description": "A narrow strait of northwestern Turkey that connect the Aegean Sea to Propontis (Sea of Marmara).",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              26.4,
+              40.2
+            ],
+            "type": "Point"
+          },
+          "id": "representative-point-for-hellespontus",
+          "properties": {
+            "description": "verified in Google Earth 2013.",
+            "link": "http://pleiades.stoa.org/places/501434/representative-point-for-hellespontus",
+            "location_precision": "precise",
+            "title": "representative point for Hellespontus"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "501434",
+      "names": [
+        "Hellespontus",
+        "Heptastadion"
+      ],
+      "reprPoint": [
+        26.4,
+        40.2
+      ],
+      "title": "Hellespontus",
+      "type": "FeatureCollection"
+    },
+    "511337": {
+      "bbox": [
+        29.916288,
+        40.76445,
+        29.923486,
+        40.765931
+      ],
+      "description": "Nicomedia was founded in 712/11 BC as a Megarian colony named Astacus and was rebuilt by Nicomedes I of Bithynia in 264 BC. The city was an important administrative center of the Roman Empire.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              29.916288,
+              40.765931
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-23979",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/511337/darmc-location-23979",
+            "location_precision": "precise",
+            "title": "DARMC location 23979"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              29.923486,
+              40.76445
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/511337/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "511337",
+      "names": [
+        "Nikom\u0113deia",
+        "Nikomedia",
+        "Nikom\u0113dia",
+        "Nikomedeia",
+        "Kocaeli",
+        "Nicomedia",
+        "\u0130zmid",
+        "\u0130zni\u1e33mid",
+        "\u0130znikmid",
+        "\u0130znikmit",
+        "\u0130zmit",
+        "Olbia",
+        "Niqum\u016bdiya",
+        "Ismid"
+      ],
+      "reprPoint": [
+        29.919887,
+        40.7651905
+      ],
+      "title": "Nicomedia",
+      "type": "FeatureCollection"
+    },
+    "530871": {
+      "bbox": [
+        20.0,
+        39.5,
+        20.5,
+        40.0
+      ],
+      "description": "An ancient region that included northwest parts of modern Greece and the southern tip of modern Albania.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  20.0,
+                  39.5
+                ],
+                [
+                  20.0,
+                  40.0
+                ],
+                [
+                  20.5,
+                  40.0
+                ],
+                [
+                  20.5,
+                  39.5
+                ],
+                [
+                  20.0,
+                  39.5
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "id": "batlas-location",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/530871/batlas-location",
+            "location_precision": "rough",
+            "title": "Barrington Atlas location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "530871",
+      "names": [
+        "Epirus"
+      ],
+      "reprPoint": [
+        20.25,
+        39.75
+      ],
+      "title": "Epirus",
+      "type": "FeatureCollection"
+    },
+    "530905": {
+      "bbox": [
+        20.638399,
+        38.44193,
+        20.638399,
+        38.44193
+      ],
+      "description": "An ancient place, cited: BAtlas 54 C5 Ithaca",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              20.638399,
+              38.44193
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-12899",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/530905/darmc-location-12899",
+            "location_precision": "precise",
+            "title": "DARMC location 12899"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "530905",
+      "names": [
+        "Ithaca"
+      ],
+      "reprPoint": [
+        20.638399,
+        38.44193
+      ],
+      "title": "Ithaca",
+      "type": "FeatureCollection"
+    },
+    "540714": {
+      "bbox": [
+        23.2505528,
+        38.1850025,
+        23.2505528,
+        38.1850025
+      ],
+      "description": "An ancient place, cited: BAtlas 55 E4 Cithaeron M.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              23.2505528,
+              38.1850025
+            ],
+            "type": "Point"
+          },
+          "id": "location-of-Cithaeron-M",
+          "properties": {
+            "description": "Location based on OpenStreetMap",
+            "link": "http://pleiades.stoa.org/places/540714/location-of-Cithaeron-M",
+            "location_precision": "precise",
+            "title": "location of Cithaeron M."
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "540714",
+      "names": [
+        "Cithaeron M."
+      ],
+      "reprPoint": [
+        23.2505528,
+        38.1850025
+      ],
+      "title": "Cithaeron M.",
+      "type": "FeatureCollection"
+    },
+    "540723": {
+      "bbox": [
+        22.732677,
+        38.507085,
+        22.737199,
+        38.51505
+      ],
+      "description": "An ancient place, cited: BAtlas 55 D3 Daulis",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              22.737199,
+              38.507085
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-12162",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/540723/darmc-location-12162",
+            "location_precision": "precise",
+            "title": "DARMC location 12162"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              22.732677,
+              38.51505
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-11887",
+          "properties": {
+            "description": "TIB point location",
+            "link": "http://pleiades.stoa.org/places/540723/darmc-location-11887",
+            "location_precision": "precise",
+            "title": "DARMC location 11887"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "540723",
+      "names": [
+        "Daulis"
+      ],
+      "reprPoint": [
+        22.734938,
+        38.5110675
+      ],
+      "title": "Daulis",
+      "type": "FeatureCollection"
+    },
+    "540726": {
+      "bbox": [
+        22.501169,
+        38.482289,
+        22.501169,
+        38.482289
+      ],
+      "description": "The ancient pan-Hellenic sanctuary of Delphi in Greece, seat of the oracle of Apollo.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              22.501169,
+              38.482289
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/540726/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "540726",
+      "names": [
+        "Delphi",
+        "Delphoi",
+        "Delfey",
+        "Delfos",
+        "Delfi"
+      ],
+      "reprPoint": [
+        22.501169,
+        38.482289
+      ],
+      "title": "Delphi",
+      "type": "FeatureCollection"
+    },
+    "541063": {
+      "bbox": [
+        23.273345,
+        38.221257,
+        23.273345,
+        38.221257
+      ],
+      "description": "Plataea is an ancient city of Boeotia, located south of Thebes. In 479 BC Plataea was the site of the Battle of Plataea, in which an allied Greek army defeated the Persians. Plataea was destroyed in the Peloponnesian War by Thebes and Sparta in 427 BC and rebuilt in 386 BC.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              23.27486,
+              38.213999
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-5554",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/541063/darmc-location-5554",
+            "location_precision": "precise",
+            "title": "DARMC location 5554"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              23.273345,
+              38.221257
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/541063/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              23.267337,
+              38.211935
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-11744",
+          "properties": {
+            "description": "TIB point location",
+            "link": "http://pleiades.stoa.org/places/541063/darmc-location-11744",
+            "location_precision": "precise",
+            "title": "DARMC location 11744"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "541063",
+      "names": [
+        "Plataea"
+      ],
+      "reprPoint": [
+        23.273345,
+        38.221257
+      ],
+      "title": "Plataea",
+      "type": "FeatureCollection"
+    },
+    "541138": {
+      "bbox": [
+        23.317799,
+        38.319076,
+        23.317799,
+        38.319076
+      ],
+      "connectsWith": [
+        "540689"
+      ],
+      "description": "The ancient city of Thebes in Boeotia (modern Greece).",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              23.317355,
+              38.319236
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-24220",
+          "properties": {
+            "description": "5M scale point location",
+            "link": "http://pleiades.stoa.org/places/541138/darmc-location-24220",
+            "location_precision": "precise",
+            "title": "DARMC location 24220"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              23.317799,
+              38.319076
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/541138/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "541138",
+      "names": [
+        "Thebae",
+        "Thiva",
+        "Thebes",
+        "Thebai"
+      ],
+      "reprPoint": [
+        23.317799,
+        38.319076
+      ],
+      "title": "Thebai/Thebae",
+      "type": "FeatureCollection"
+    },
+    "550595": {
+      "bbox": [
+        26.238889,
+        39.9575,
+        26.238889,
+        39.9575
+      ],
+      "connectsWith": [
+        "550944"
+      ],
+      "description": "An ancient city of northwest Anatolia with occupation ranging from the Bronze Age to the Roman period.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              26.264756,
+              39.954101
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-325",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/550595/darmc-location-325",
+            "location_precision": "precise",
+            "title": "DARMC location 325"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              26.238889,
+              39.9575
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/550595/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "550595",
+      "names": [
+        "Troy",
+        "Ilium",
+        "Troia"
+      ],
+      "reprPoint": [
+        26.238889,
+        39.9575
+      ],
+      "title": "Ilium/Troia",
+      "type": "FeatureCollection"
+    },
+    "550812": {
+      "bbox": [
+        27.18383,
+        39.130991,
+        27.184167,
+        39.1325
+      ],
+      "connectsWith": [
+        "837",
+        "550759"
+      ],
+      "description": "An important ancient settlement, located at modern Bergama in Turkey. It was first described in Xenophon's Anabasis and was later used as a treasury under Lysimachus. Pergamum became the administrative capital and principal city of the Attalid kingdom and dynasty (282-133 BCE) and was briefly the first capital of the Roman province of Asia. It later was a seat of a christian bishopric and is listed in Revelation as one of the seven churches of Asia. It was inscribed as a UNESCO World Heritage Site in 2014 under \"Pergamon and its Multi-Layered Cultural Landscape\".",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              27.18383,
+              39.130991
+            ],
+            "type": "Point"
+          },
+          "id": "the-great-altar-at-pergamon",
+          "properties": {
+            "description": "The Great Altar of Zeus, constructed during the first half of the 2nd century BC, is a monumental altar on a high platform, with two projecting wings; its Hellenistic Baroque sculptural program includes a high-relief Gigantomachy around the outside of the building and an interior frieze depicting the story of the mythical hero Telephos",
+            "link": "http://pleiades.stoa.org/places/550812/the-great-altar-at-pergamon",
+            "location_precision": "precise",
+            "title": "The Great Altar at Pergamon"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              27.1837067,
+              39.1330313
+            ],
+            "type": "Point"
+          },
+          "id": "trajan-tempel",
+          "properties": {
+            "description": "Location based on OpenStreetMap",
+            "link": "http://pleiades.stoa.org/places/550812/trajan-tempel",
+            "location_precision": "precise",
+            "title": "Temple of Trajan at Pergamum"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              27.185694,
+              39.129049
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-5478",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/550812/darmc-location-5478",
+            "location_precision": "precise",
+            "title": "DARMC location 5478"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              27.18373,
+              39.132091
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-24169",
+          "properties": {
+            "description": "5M scale point location",
+            "link": "http://pleiades.stoa.org/places/550812/darmc-location-24169",
+            "location_precision": "precise",
+            "title": "DARMC location 24169"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              27.184167,
+              39.1325
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/550812/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "550812",
+      "names": [
+        "Pergamum",
+        "Pergamon",
+        "Pergamon",
+        "Pergamon",
+        "Bergama",
+        "Bergama",
+        "Bar\u0121ama",
+        "Ber\u0121ama"
+      ],
+      "reprPoint": [
+        27.1839985,
+        39.1317455
+      ],
+      "title": "Pergamum",
+      "type": "FeatureCollection"
+    },
+    "550919": {
+      "bbox": [
+        27.020171,
+        39.597431,
+        27.020171,
+        39.597431
+      ],
+      "description": "An ancient place, cited: BAtlas 56 E2 Thebe",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              27.020171,
+              39.597431
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-15119",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/550919/darmc-location-15119",
+            "location_precision": "precise",
+            "title": "DARMC location 15119"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "550919",
+      "names": [
+        "Thebe"
+      ],
+      "reprPoint": [
+        27.020171,
+        39.597431
+      ],
+      "title": "Thebe",
+      "type": "FeatureCollection"
+    },
+    "570102": {
+      "bbox": [
+        21.839109,
+        37.389509,
+        22.3875035,
+        37.974
+      ],
+      "description": "The ancient region of Arcadia comprised the highlands at the center of the Peloponnese.",
+      "id": "570102",
+      "names": [
+        "Arcadia",
+        "Pelasgia"
+      ],
+      "reprPoint": [
+        22.1736139167,
+        37.6762876167
+      ],
+      "title": "Arcadia",
+      "type": "FeatureCollection"
+    },
+    "570182": {
+      "bbox": [
+        22.879189,
+        37.906033,
+        22.879189,
+        37.906033
+      ],
+      "connectsWith": [
+        "570577",
+        "570347"
+      ],
+      "description": "The ancient Greek and Roman city of Corinth, located in the Peloponnese, Greece. Also known today as Archaia Korinthos and not to be confused with the nearby modern town.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              22.879189,
+              37.906033
+            ],
+            "type": "Point"
+          },
+          "id": "center-of-the-temple-of-apollo-at-corinth",
+          "properties": {
+            "description": "The second temple of Apollo at Corinth whose reconstructed remains are visible on the site today.",
+            "link": "http://pleiades.stoa.org/places/570182/center-of-the-temple-of-apollo-at-corinth",
+            "location_precision": "precise",
+            "title": "Center of the Temple of Apollo at Corinth"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "570182",
+      "names": [
+        "Corinthus",
+        "Aigiales",
+        "Aigialos",
+        "Sicyonia",
+        "Corinth",
+        "Korinthos"
+      ],
+      "reprPoint": [
+        22.879189,
+        37.906033
+      ],
+      "title": "Corinthus/Korinthos",
+      "type": "FeatureCollection"
+    },
+    "570220": {
+      "bbox": [
+        21.375091,
+        37.891781,
+        21.375091,
+        37.891781
+      ],
+      "description": "An ancient place, cited: BAtlas 58 A2 Elis",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              21.360719,
+              37.886441
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-885",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/570220/darmc-location-885",
+            "location_precision": "precise",
+            "title": "DARMC location 885"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              21.57052,
+              37.704134
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-23923",
+          "properties": {
+            "description": "5M scale point location",
+            "link": "http://pleiades.stoa.org/places/570220/darmc-location-23923",
+            "location_precision": "precise",
+            "title": "DARMC location 23923"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              21.375091,
+              37.891781
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/570220/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "570220",
+      "names": [
+        "Elis"
+      ],
+      "reprPoint": [
+        21.375091,
+        37.891781
+      ],
+      "title": "Elis",
+      "type": "FeatureCollection"
+    },
+    "570290": {
+      "bbox": [
+        21.573479,
+        37.687483,
+        21.573479,
+        37.687483
+      ],
+      "description": "Herakleia was an ancient settlement of Pisatis in Elis, some 40 or 50 stades from Olympia.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              21.573479,
+              37.687483
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-1848",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/570290/darmc-location-1848",
+            "location_precision": "precise",
+            "title": "DARMC location 1848"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "570290",
+      "names": [
+        "Herakleia"
+      ],
+      "reprPoint": [
+        21.573479,
+        37.687483
+      ],
+      "title": "Herakleia",
+      "type": "FeatureCollection"
+    },
+    "570406": {
+      "bbox": [
+        22.349956,
+        36.953544,
+        22.73,
+        37.11
+      ],
+      "description": "Lacedaemon/Laconia is a region comprising the south-eastern part of the Peloponnese.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  22.0,
+                  37.0
+                ],
+                [
+                  22.0,
+                  37.5
+                ],
+                [
+                  22.5,
+                  37.5
+                ],
+                [
+                  22.5,
+                  37.0
+                ],
+                [
+                  22.0,
+                  37.0
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "id": "batlas-location",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/570406/batlas-location",
+            "location_precision": "rough",
+            "title": "Barrington Atlas location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "570406",
+      "names": [
+        "Lacedaemon",
+        "Laconia"
+      ],
+      "reprPoint": [
+        22.5012053333,
+        37.0485586667
+      ],
+      "title": "Lacedaemon/Laconia",
+      "type": "FeatureCollection"
+    },
+    "570459": {
+      "bbox": [
+        22.393259,
+        37.618138,
+        22.393259,
+        37.618138
+      ],
+      "description": "Mantineia/Antigoneia was an ancient settlement in Greece most noted for being the site of two major battles. The First Battle of Mantinea was the largest land battle of the Peloponnesian War (418 BC) and the Second Battle of Mantinea brought an end to Theban hegemony (362 BC).",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              22.391896,
+              37.616619
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-24074",
+          "properties": {
+            "description": "1M scale point location",
+            "link": "http://pleiades.stoa.org/places/570459/darmc-location-24074",
+            "location_precision": "precise",
+            "title": "DARMC location 24074"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              22.393259,
+              37.618138
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/570459/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "570459",
+      "names": [
+        "Mantineia",
+        "Antigoneia"
+      ],
+      "reprPoint": [
+        22.393259,
+        37.618138
+      ],
+      "title": "Mantineia/Antigoneia",
+      "type": "FeatureCollection"
+    },
+    "570468": {
+      "bbox": [
+        23.340163,
+        37.985078,
+        23.340163,
+        37.985078
+      ],
+      "description": "Megara was an important ancient city of Greece, located in the northern part of the the Isthmus of Corinth opposite the island of Salamis.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              23.340163,
+              37.985078
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-4793",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/570468/darmc-location-4793",
+            "location_precision": "precise",
+            "title": "DARMC location 4793"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "570468",
+      "names": [
+        "Megara"
+      ],
+      "reprPoint": [
+        23.340163,
+        37.985078
+      ],
+      "title": "Megara",
+      "type": "FeatureCollection"
+    },
+    "570491": {
+      "bbox": [
+        22.756111,
+        37.730456,
+        22.756172,
+        37.730833
+      ],
+      "connectsWith": [
+        "570104"
+      ],
+      "description": "Mycenae was an ancient settlement of the Argolid, with the earliest occupation evident ca. 2900 BC. As the eponymous site of the Mycenaean culture of the Aegean Bronze Age, the site flourishes as a fortified citadel during the mid to late second millennium BC. In the first millennium BC, the site experiences a revival of fortunes, although by Strabo's time the settlement had vanished.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              22.753603,
+              37.726806
+            ],
+            "type": "Point"
+          },
+          "id": "treasury-of-atreus",
+          "properties": {
+            "description": "A Bronze Age tholos tomb with a corbeled dome and monumental ashlar facade on the Panagitsa Hill at Mycenae.",
+            "link": "http://pleiades.stoa.org/places/570491/treasury-of-atreus",
+            "location_precision": "precise",
+            "title": "Treasury of Atreus"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              22.756413,
+              37.733372
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-3030",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/570491/darmc-location-3030",
+            "location_precision": "precise",
+            "title": "DARMC location 3030"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              22.756111,
+              37.730833
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/570491/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              22.756172,
+              37.730456
+            ],
+            "type": "Point"
+          },
+          "id": "grave-circle-a-at-mycenae",
+          "properties": {
+            "description": "Grave Circle A encloses a royal cemetery within the walls of the citadel of Mycenae; inside it are six shaft graves constructed around 1600 BC",
+            "link": "http://pleiades.stoa.org/places/570491/grave-circle-a-at-mycenae",
+            "location_precision": "precise",
+            "title": "Grave Circle A at Mycenae"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "570491",
+      "names": [
+        "Muk\u00eanai",
+        "Mycenae"
+      ],
+      "reprPoint": [
+        22.7561415,
+        37.7306445
+      ],
+      "title": "Mycenae",
+      "type": "FeatureCollection"
+    },
+    "570531": {
+      "bbox": [
+        21.628625,
+        37.637807,
+        21.630049,
+        37.6385
+      ],
+      "description": "Ancient sanctuary of Zeus and home of the ancient Olympic games.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              21.628625,
+              37.6385
+            ],
+            "type": "Point"
+          },
+          "id": "palaestra-at-olympia",
+          "properties": {
+            "description": "Palaestra in the sanctuary of Zeus at Olympia",
+            "link": "http://pleiades.stoa.org/places/570531/palaestra-at-olympia",
+            "location_precision": "precise",
+            "title": "Palaestra at Olympia"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              21.630049,
+              37.637807
+            ],
+            "type": "Point"
+          },
+          "id": "center-of-the-temple-of-zeus-at-olympia",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/570531/center-of-the-temple-of-zeus-at-olympia",
+            "location_precision": "precise",
+            "title": "Center of the Temple of Zeus at Olympia"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "570531",
+      "names": [
+        "Olympia"
+      ],
+      "reprPoint": [
+        21.629337,
+        37.6381535
+      ],
+      "title": "Olympia",
+      "type": "FeatureCollection"
+    },
+    "570668": {
+      "bbox": [
+        22.711059,
+        37.984123,
+        22.711059,
+        37.984123
+      ],
+      "description": "An ancient place, cited: BAtlas 58 D2 Sicyon/Demetrias",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              22.722718,
+              37.980475
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-24101",
+          "properties": {
+            "description": "1M scale point location",
+            "link": "http://pleiades.stoa.org/places/570668/darmc-location-24101",
+            "location_precision": "precise",
+            "title": "DARMC location 24101"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              22.711059,
+              37.984123
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/570668/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "570668",
+      "names": [
+        "Sicyon",
+        "Demetrias",
+        "Aigialeia",
+        "Mekora"
+      ],
+      "reprPoint": [
+        22.711059,
+        37.984123
+      ],
+      "title": "Sicyon/Demetrias",
+      "type": "FeatureCollection"
+    },
+    "570685": {
+      "bbox": [
+        22.42366,
+        37.082132,
+        22.435455,
+        37.083301
+      ],
+      "connectsWith": [
+        "570406",
+        "570248"
+      ],
+      "description": "Sparta was a prominent city-state (polis) of ancient Greece.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              22.423445,
+              37.0827414
+            ],
+            "type": "Point"
+          },
+          "id": "location-of-ancient-theater",
+          "properties": {
+            "description": "Location based on OpenStreetMap",
+            "link": "http://pleiades.stoa.org/places/570685/location-of-ancient-theater",
+            "location_precision": "precise",
+            "title": "location of ancient theater"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              22.430937,
+              37.073678
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-6072",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/570685/darmc-location-6072",
+            "location_precision": "precise",
+            "title": "DARMC location 6072"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              22.435455,
+              37.083301
+            ],
+            "type": "Point"
+          },
+          "id": "temple-of-artemis-orthia-4",
+          "properties": {
+            "description": "Archaic temple dedicated to Artemis Orthia within the sanctuary of this goddess at Sparta. The site contained rich deposits of votives and masks.",
+            "link": "http://pleiades.stoa.org/places/570685/temple-of-artemis-orthia-4",
+            "location_precision": "precise",
+            "title": "Temple of Artemis Orthia"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              22.42366,
+              37.082132
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/570685/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "570685",
+      "names": [
+        "Sparta"
+      ],
+      "reprPoint": [
+        22.4295575,
+        37.0827165
+      ],
+      "title": "Sparta",
+      "type": "FeatureCollection"
+    },
+    "579885": {
+      "bbox": [
+        23.719537,
+        37.970793,
+        23.726464,
+        37.975855
+      ],
+      "connectsWith": [
+        "579888"
+      ],
+      "description": "A major Greek city-state and the principal city of Attika.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              23.72775,
+              37.970278
+            ],
+            "type": "Point"
+          },
+          "id": "theatre-of-dionysus-eleuthereus",
+          "properties": {
+            "description": "Theatre on the south slope of the Acropolis.",
+            "link": "http://pleiades.stoa.org/places/579885/theatre-of-dionysus-eleuthereus",
+            "location_precision": "precise",
+            "title": "Theatre of Dionysus Eleuthereus"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              23.719537,
+              37.970793
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-21246",
+          "properties": {
+            "description": "Point location",
+            "link": "http://pleiades.stoa.org/places/579885/darmc-location-21246",
+            "location_precision": "precise",
+            "title": "DARMC location 21246"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              23.721393,
+              37.975574
+            ],
+            "type": "Point"
+          },
+          "id": "hephaisteion",
+          "properties": {
+            "description": "Temple of Hephaistos located on the northwest side of the Agora of Athens",
+            "link": "http://pleiades.stoa.org/places/579885/hephaisteion",
+            "location_precision": "precise",
+            "title": "Hephaisteion"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              23.722014,
+              37.975855
+            ],
+            "type": "Point"
+          },
+          "id": "stoa-of-zeus-eleutherios",
+          "properties": {
+            "description": "The Stoa of Zeus Eleutherios was built on the west side of the Agora of Athens between 430-425 BC, in honor of Zeus \"of Freedom\"; the stoa, Doric in its external order, housed the shields of Athenians who had died fighting for the city",
+            "link": "http://pleiades.stoa.org/places/579885/stoa-of-zeus-eleutherios",
+            "location_precision": "precise",
+            "title": "Stoa of Zeus (Eleutherios)"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              23.718611,
+              37.978333
+            ],
+            "type": "Point"
+          },
+          "id": "kerameikos",
+          "properties": {
+            "description": "A district of ancient Athens located northwest of the Acropolis, the Kerameikos takes its name from the potters' workshops in the area; the portion of the district lying outside the Dipylon Gate served as a necropolis.",
+            "link": "http://pleiades.stoa.org/places/579885/kerameikos",
+            "location_precision": "precise",
+            "title": "Kerameikos"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              23.726443,
+              37.972
+            ],
+            "type": "Point"
+          },
+          "id": "the-erechtheion",
+          "properties": {
+            "description": "The Erechtheion is a temple on the Athenian Acropolis dedicated to Athena Polias and other deities and heroes; the temple is of the Ionic order with several distinctive features, including its famous caryatid porch",
+            "link": "http://pleiades.stoa.org/places/579885/the-erechtheion",
+            "location_precision": "precise",
+            "title": "The Erechtheion"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              23.726166,
+              37.971421
+            ],
+            "type": "Point"
+          },
+          "id": "acropolis-of-athens",
+          "properties": {
+            "description": "The acropolis of the ancient city",
+            "link": "http://pleiades.stoa.org/places/579885/acropolis-of-athens",
+            "location_precision": "precise",
+            "title": "Acropolis of Athens"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              23.7225,
+              37.975
+            ],
+            "type": "Point"
+          },
+          "id": "agora-of-athens",
+          "properties": {
+            "description": "The marketplace of the ancient city",
+            "link": "http://pleiades.stoa.org/places/579885/agora-of-athens",
+            "location_precision": "precise",
+            "title": "Agora of Athens"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              23.726464,
+              37.971687
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/579885/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "579885",
+      "names": [
+        "Athenae",
+        "Athens",
+        "Athina"
+      ],
+      "reprPoint": [
+        23.7239851818,
+        37.9727465455
+      ],
+      "title": "Athenae",
+      "type": "FeatureCollection"
+    },
+    "579888": {
+      "bbox": [
+        23.374906,
+        37.926212,
+        25.0,
+        39.0
+      ],
+      "description": "Historical region of Greece, centered on the Attic Peninsula.",
+      "id": "579888",
+      "names": [
+        "Attica"
+      ],
+      "reprPoint": [
+        23.93799025,
+        38.1976346667
+      ],
+      "title": "Attica",
+      "type": "FeatureCollection"
+    },
+    "579889": {
+      "bbox": [
+        23.591244,
+        38.424506,
+        23.596065,
+        38.436013
+      ],
+      "description": "An ancient place, cited: BAtlas 59 B1 Aulis",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              23.591244,
+              38.436013
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-21249",
+          "properties": {
+            "description": "Point location",
+            "link": "http://pleiades.stoa.org/places/579889/darmc-location-21249",
+            "location_precision": "precise",
+            "title": "DARMC location 21249"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              23.596065,
+              38.424506
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-11585",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/579889/darmc-location-11585",
+            "location_precision": "precise",
+            "title": "DARMC location 11585"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "579889",
+      "names": [
+        "Aulis"
+      ],
+      "reprPoint": [
+        23.5936545,
+        38.4302595
+      ],
+      "title": "Aulis",
+      "type": "FeatureCollection"
+    },
+    "580021": {
+      "bbox": [
+        23.96092,
+        38.137916,
+        23.979372,
+        38.155187
+      ],
+      "description": "An ancient place, cited: BAtlas 59 C2 Marathon",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              23.979372,
+              38.137916
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-21302",
+          "properties": {
+            "description": "Point location",
+            "link": "http://pleiades.stoa.org/places/580021/darmc-location-21302",
+            "location_precision": "precise",
+            "title": "DARMC location 21302"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              23.96092,
+              38.155187
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-24019",
+          "properties": {
+            "description": "1M scale point location",
+            "link": "http://pleiades.stoa.org/places/580021/darmc-location-24019",
+            "location_precision": "precise",
+            "title": "DARMC location 24019"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "580021",
+      "names": [
+        "Marathon"
+      ],
+      "reprPoint": [
+        23.970146,
+        38.1465515
+      ],
+      "title": "Marathon",
+      "type": "FeatureCollection"
+    },
+    "580101": {
+      "bbox": [
+        23.51,
+        37.93,
+        23.51,
+        37.93
+      ],
+      "connectsWith": [
+        "570654"
+      ],
+      "description": "Salamis is the largest island of the Saronic Gulf.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              23.51,
+              37.93
+            ],
+            "type": "Point"
+          },
+          "id": "location-of-salamis-ins",
+          "properties": {
+            "description": "Coordinates after BAtlas; verified in Google Earth 2013 with reference to Wikipedia.",
+            "link": "http://pleiades.stoa.org/places/580101/location-of-salamis-ins",
+            "location_precision": "precise",
+            "title": "location of Salamis Ins."
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "580101",
+      "names": [
+        "Salamis"
+      ],
+      "reprPoint": [
+        23.51,
+        37.93
+      ],
+      "title": "Salamis Ins.",
+      "type": "FeatureCollection"
+    },
+    "580599": {
+      "bbox": [
+        23.75,
+        38.0,
+        24.0,
+        38.25
+      ],
+      "description": "An ancient place, cited: BAtlas 59 C2 unnamed aqueduct (Athens from N)",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  23.75,
+                  38.0
+                ],
+                [
+                  23.75,
+                  38.25
+                ],
+                [
+                  24.0,
+                  38.25
+                ],
+                [
+                  24.0,
+                  38.0
+                ],
+                [
+                  23.75,
+                  38.0
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "id": "batlas-location",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/580599/batlas-location",
+            "location_precision": "rough",
+            "title": "Barrington Atlas location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "580599",
+      "reprPoint": [
+        23.875,
+        38.125
+      ],
+      "title": "Untitled",
+      "type": "FeatureCollection"
+    },
+    "599564": {
+      "bbox": [
+        27.420201,
+        37.032062,
+        27.430254,
+        37.042901
+      ],
+      "description": "An ancient place, cited: BAtlas 61 F2 Caria",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  27.5,
+                  37.5
+                ],
+                [
+                  27.5,
+                  38.0
+                ],
+                [
+                  28.0,
+                  38.0
+                ],
+                [
+                  28.0,
+                  37.5
+                ],
+                [
+                  27.5,
+                  37.5
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "id": "undetermined",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/599564/undetermined",
+            "location_precision": "rough",
+            "title": "Undetermined location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "599564",
+      "names": [
+        "Caria"
+      ],
+      "reprPoint": [
+        27.425929777,
+        37.0370402584
+      ],
+      "title": "Caria",
+      "type": "FeatureCollection"
+    },
+    "599753": {
+      "bbox": [
+        27.58333,
+        37.5,
+        27.58333,
+        37.5
+      ],
+      "description": "Latmos M. (Be\u015fparmak Mountains) run east-west along the north shore of the former Latmian Gulf on the coast of Caria.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              27.58333,
+              37.5
+            ],
+            "type": "Point"
+          },
+          "id": "besparmak-dag131",
+          "properties": {
+            "description": "Location of Be\u015fparmak Da\u011f\u0131",
+            "link": "http://pleiades.stoa.org/places/599753/besparmak-dag131",
+            "location_precision": "precise",
+            "title": "Be\u015fparmak Da\u011f\u0131"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "599753",
+      "names": [
+        "Latmos M."
+      ],
+      "reprPoint": [
+        27.58333,
+        37.5
+      ],
+      "title": "Latmos M.",
+      "type": "FeatureCollection"
+    },
+    "609502": {
+      "bbox": [
+        29.5,
+        38.5,
+        30.0,
+        39.0
+      ],
+      "description": "Phrygia was an ancient kingdom of west-central Anatolia.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  29.5,
+                  38.5
+                ],
+                [
+                  29.5,
+                  39.0
+                ],
+                [
+                  30.0,
+                  39.0
+                ],
+                [
+                  30.0,
+                  38.5
+                ],
+                [
+                  29.5,
+                  38.5
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "id": "undetermined",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/609502/undetermined",
+            "location_precision": "rough",
+            "title": "Undetermined location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "609502",
+      "names": [
+        "Phrygia",
+        "Berecyntius Tractus",
+        "Berekyntes"
+      ],
+      "reprPoint": [
+        29.75,
+        38.75
+      ],
+      "title": "Phrygia",
+      "type": "FeatureCollection"
+    },
+    "639073": {
+      "bbox": [
+        31.786964,
+        36.603294,
+        31.8024,
+        36.623494
+      ],
+      "description": "An ancient place, cited: BAtlas 65 G4 Ptolemais",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              31.786964,
+              36.623494
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-1352",
+          "properties": {
+            "description": "TIB point location",
+            "link": "http://pleiades.stoa.org/places/639073/darmc-location-1352",
+            "location_precision": "precise",
+            "title": "DARMC location 1352"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              31.798728,
+              36.603294
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-3051",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/639073/darmc-location-3051",
+            "location_precision": "precise",
+            "title": "DARMC location 3051"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "639073",
+      "names": [
+        "Ptolemais"
+      ],
+      "reprPoint": [
+        31.7960306667,
+        36.6101293333
+      ],
+      "title": "Ptolemais",
+      "type": "FeatureCollection"
+    },
+    "707596": {
+      "bbox": [
+        32.573711,
+        34.707147,
+        32.573711,
+        34.707147
+      ],
+      "connectsWith": [
+        "707498"
+      ],
+      "description": "Located on Cyprus, Paphos has been inhabited since the Neolithic period and was an important cult center of Aphrodite.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              32.584461,
+              34.703504
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-5444",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/707596/darmc-location-5444",
+            "location_precision": "precise",
+            "title": "DARMC location 5444"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              32.573711,
+              34.707147
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/707596/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "707596",
+      "names": [
+        "Palaipaphos",
+        "Paphos",
+        "Pa-ap-pa"
+      ],
+      "reprPoint": [
+        32.573711,
+        34.707147
+      ],
+      "title": "(Palai)Paphos",
+      "type": "FeatureCollection"
+    },
+    "736963": {
+      "bbox": [
+        31.255061,
+        29.849491,
+        31.255061,
+        29.849491
+      ],
+      "description": "A city and capital of Ancient Egypt that remained an important center for most of Egyptian history (BAtlas 75 E1 Memphis).",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              31.255061,
+              29.849491
+            ],
+            "type": "Point"
+          },
+          "id": "center-of-visible-remains-at-memphis",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/736963/center-of-visible-remains-at-memphis",
+            "location_precision": "precise",
+            "title": "Center of Visible Remains at Memphis"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "736963",
+      "names": [
+        "Nof",
+        "Memphis",
+        "Mempi",
+        "\u1e25wt-k\ua723-Pt\u1e25",
+        "Mefi",
+        "\u02bfn\u1e2b-t\ua723wj",
+        "\u00ednbw hd",
+        "jnb(w)\u1e25\u1e0f",
+        "jnbw-\u1e25\u1e0f",
+        "jnb",
+        "mnp",
+        "mn-nfr",
+        "V Macedonica garrison",
+        "M\u012bt Rah\u012bna",
+        "Memphis",
+        "V Macedonia garrison",
+        "M\u012bt Ruhaina"
+      ],
+      "reprPoint": [
+        31.255061,
+        29.849491
+      ],
+      "title": "Memphis",
+      "type": "FeatureCollection"
+    },
+    "786017": {
+      "bbox": [
+        32.616486,
+        25.634785,
+        32.647282,
+        25.6985252
+      ],
+      "connectsWith": [
+        "727172"
+      ],
+      "description": "Diospolis Magna/Thebai was known in ancient Egypt as Waset, \"City of the Sceptre\". The site was designated as a UNESCO World Heritage Site in 1979.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              32.6380625,
+              25.6985252
+            ],
+            "type": "Point"
+          },
+          "id": "luxor-temple",
+          "properties": {
+            "description": "Location based on OpenStreetMap",
+            "link": "http://pleiades.stoa.org/places/786017/luxor-temple",
+            "location_precision": "precise",
+            "title": "Luxor Temple"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              32.616486,
+              25.634785
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-338",
+          "properties": {
+            "description": "500K scale point location",
+            "link": "http://pleiades.stoa.org/places/786017/darmc-location-338",
+            "location_precision": "precise",
+            "title": "DARMC location 338"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              32.647282,
+              25.694777
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-339",
+          "properties": {
+            "description": "5M scale point location",
+            "link": "http://pleiades.stoa.org/places/786017/darmc-location-339",
+            "location_precision": "precise",
+            "title": "DARMC location 339"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "786017",
+      "names": [
+        "Thebes east",
+        "Diospolis Magna",
+        "Thebai",
+        "\u1e25wt-n\u1e6frn \u1e2answ (mw\ua723st)",
+        "\u1e25wt-n\u1e6fr nt Jmn-(R\u02bf)",
+        "al-Karnak",
+        "pr-Jmn",
+        "jpt rst",
+        "jpt-swt (mw\ua723st)",
+        "N\u0113\u02be",
+        "njwt-rsjt",
+        "w\ua723st",
+        "al-Uq\u1e63ur\u0113n",
+        "al-Uq\u1e63urain",
+        "al-Uq\u1e63ur",
+        "jpt swt",
+        "jpt-swt",
+        "Pap\u0113",
+        "Th\u0113bai",
+        "Dios polis megal\u0113",
+        "Diospolis Megal\u0113",
+        "Diospolis megal\u0113",
+        "Diospolis Magna",
+        "Diospolis magna",
+        "Theben-West",
+        "Theben",
+        "Diospolis",
+        "\u1e25wt Pt\u1e25w\ua723st(j)",
+        "Luxor",
+        "njwt",
+        "[pr]-S\u1e2bm-R\u02bf\u1e2bwj\u2011[t\ua723wj]",
+        "[pr]-Sbk-\u1e25tpmpr-Jmn",
+        "pr-Mn\u1e6fw",
+        "Luxor",
+        "\u1e2apr-k\ua723-R\u02bfswt-\u1e0ff\ua723w",
+        "\u1e2apr-k\ua723-R\u02bf\u1e2bnttjpt-swt",
+        "Karnak",
+        "Karnak",
+        "al-Uqsur"
+      ],
+      "reprPoint": [
+        32.6355911,
+        25.68502752
+      ],
+      "title": "Diospolis Magna/Thebai",
+      "type": "FeatureCollection"
+    },
+    "863766": {
+      "bbox": [
+        43.0,
+        42.0,
+        44.0,
+        43.0
+      ],
+      "description": "An ancient place, cited: BAtlas 88 B2 Caucasus M.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  43.0,
+                  42.0
+                ],
+                [
+                  43.0,
+                  43.0
+                ],
+                [
+                  44.0,
+                  43.0
+                ],
+                [
+                  44.0,
+                  42.0
+                ],
+                [
+                  43.0,
+                  42.0
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "id": "batlas-location",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/863766/batlas-location",
+            "location_precision": "rough",
+            "title": "Barrington Atlas location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "863766",
+      "names": [
+        "Caucasus M."
+      ],
+      "reprPoint": [
+        43.5,
+        42.5
+      ],
+      "title": "Caucasus M.",
+      "type": "FeatureCollection"
+    },
+    "906014": {
+      "description": "An ancient place, cited: BAtlas 92 unlocated Kissia/Kissie Chore Bet Kussaye/Bakusaya",
+      "features": [
+        {
+          "id": "batlas-location",
+          "properties": {
+            "description": null,
+            "link": "http://pleiades.stoa.org/places/906014/batlas-location",
+            "location_precision": "unlocated",
+            "title": "Barrington Atlas location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "906014",
+      "names": [
+        "Kissia",
+        "Kissie Chore Bet Kussaye",
+        "Bakusaya"
+      ],
+      "reprPoint": [
+        45.5,
+        34.5
+      ],
+      "title": "Kissia/Kissie Chore Bet Kussaye/Bakusaya",
+      "type": "FeatureCollection"
+    },
+    "912936": {
+      "bbox": [
+        48.2537285,
+        32.1887935,
+        48.2537285,
+        32.1887935
+      ],
+      "description": "An ancient city of the Elamite, Persian, and Parthian empires of Iran.",
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              48.257788,
+              32.189218
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-21498",
+          "properties": {
+            "description": "Point location",
+            "link": "http://pleiades.stoa.org/places/912936/darmc-location-21498",
+            "location_precision": "precise",
+            "title": "DARMC location 21498"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              48.249669,
+              32.188369
+            ],
+            "type": "Point"
+          },
+          "id": "darmc-location-3570",
+          "properties": {
+            "description": "5M scale point location",
+            "link": "http://pleiades.stoa.org/places/912936/darmc-location-3570",
+            "location_precision": "precise",
+            "title": "DARMC location 3570"
+          },
+          "type": "Feature"
+        },
+        {
+          "geometry": {
+            "coordinates": [
+              48.2537285,
+              32.1887935
+            ],
+            "type": "Point"
+          },
+          "id": "dare-location",
+          "properties": {
+            "description": "Representative point location, site precision",
+            "link": "http://pleiades.stoa.org/places/912936/dare-location",
+            "location_precision": "precise",
+            "title": "DARE Location"
+          },
+          "type": "Feature"
+        }
+      ],
+      "id": "912936",
+      "names": [
+        "Shushan",
+        "Shusha",
+        "Susa",
+        "Seleucia ad Eulaeum",
+        "Shush-i er-Kar",
+        "Sousa",
+        "\u0161w\u0161n",
+        "S\u016bs\u0101",
+        "\u0160u\u0161i",
+        "\u00c7u\u0161\u0101",
+        "Seleukeia pros t\u014d Eulai\u014d",
+        "\u012ar\u0101n\u1e2burra-S\u0101b\u016br",
+        "\u0160u\u0161im",
+        "\u0160u\u0161\u00eem",
+        "\u0160u\u0161ina",
+        "\u0160u\u0161an",
+        "Seleukeia",
+        "as-S\u016bs",
+        "S\u016bs",
+        "\u0112r\u0101n-\u1e2buarrah-\u0160\u0101hpuhr",
+        "\u0160u\u0161a",
+        "\u0160u\u0161",
+        "\u0160\u016bs",
+        "Susa",
+        "\u0160\u016b\u0161",
+        "\u0160\u016b\u0161"
+      ],
+      "reprPoint": [
+        48.2537285,
+        32.1887935
+      ],
+      "title": "Shusha(n)/Susa/Seleucia ad Eulaeum/Shush-i er-Kar",
+      "type": "FeatureCollection"
+    }
+  }
+}

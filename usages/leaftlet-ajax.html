@@ -1,0 +1,79 @@
+<html>
+  <head>
+     <meta charset="UTF-8" />
+     <title>Usage de leaflet</title>
+     <link rel="stylesheet" href="assets/css/bootstrap.css">
+     <link rel="stylesheet" href="assets/css/leaflet.css">
+     <script type="text/javascript" src="assets/js/jquery.js"></script>
+     <script type="text/javascript" src="assets/js/leaflet.js"></script>
+     <script type="text/javascript">
+        $(document).ready(function() {
+            // Création de la carte à l'id "map"
+            var map = L.map('map');
+
+            // Centrer la vue sur 51.505;-0.09 avec un zoom de 10
+            map.setView([51.505, -0.09], 10);
+
+            // Usage des tuiles de carte d'OpenStreetMap puis ajout à la carte map
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+
+            $.ajax("/json/places.json").done(function(data, x, z) {
+                // On réserve des variables qui permettront de calculer le centre de la carte à la fin
+                var max_lat = null,
+                    min_lat = null,
+                    max_long = null,
+                    min_long = null;
+
+                // On boucle sur les clefs
+                for(var place_id in data.places) {
+                    // On crée un raccourci vers le dictionnaire de lieu et vers ses longitudes et latitudes
+                    var lieu = data.places[place_id],
+                        long_lat = lieu.reprPoint;
+
+                    // Modification des points maximum et minimum
+                    if (min_lat === null || min_lat > long_lat[1]) {
+                        min_lat = long_lat[1];
+                    }
+                    if (max_lat === null || max_lat < long_lat[1]) {
+                        max_lat = long_lat[1];
+                    }
+                    if (min_long === null || min_long > long_lat[0]) {
+                        min_long = long_lat[0];
+                    }
+                    if (max_long === null || max_long < long_lat[0]) {
+                        max_long = long_lat[0];
+                    }
+
+                    // Création du marqueur
+                    var marker = L.marker([long_lat[1], long_lat[0]]);
+                    // Ajout à la carte
+                    marker.addTo(map);
+                    // Création d'un popup
+                    marker.bindPopup("<h2>"+lieu.title+"</h2><p><a href=\"https://pleiades.stoa.org/places/"+place_id+"\">Pleiades</a></p><p>"+lieu.description+"</p>");
+                }
+
+                // Création des valeurs de latitudes et longitudes minimales et maximales
+                var min_point = L.latLng([min_lat, min_long]),
+                    max_point = L.latLng([max_lat, max_long]),
+                    // Création d'une frontiere 
+                    // http://leafletjs.com/reference-1.3.0.html#latlngbounds
+                    frontieres = L.latLngBounds(min_point, max_point);
+
+                // Centrage sur les frontieres
+                map.fitBounds(frontieres);
+            });
+        });
+     </script>
+ </head>
+ <body>
+    <div class="container">
+        <h1>Une carte</h1>
+        <div id="map" style="height: 400px;">
+            <!-- Faire attention à ne pas oublier la hauteur ! -->
+            
+        </div>
+    </div>
+</body>
+</html>

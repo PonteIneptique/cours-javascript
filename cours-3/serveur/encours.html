@@ -14,22 +14,7 @@
          */
          $("#textes").on("change", function (event) {
             var current = $(this);
-            var url =current.val();
-            $.ajax(url).done(function (data) {
-                var titre = data["work"]; // data.work
-                var auteur = data["author"];
-                var texte = "";
-                for (var cle in data["text"]) {
-                    texte = texte + data["text"][cle];
-                    // data["text"].cle === data["text"]["cle"]
-                }
-                var contenu_html = `<h1>`+titre+`</h1>
-                <h2>`+auteur+`</h2>
-                <p>`+texte+`</p>
-                `;
-                $("#contenu").html(contenu_html);
-
-            });
+            alert(current.val());
          });
         });
      </script>

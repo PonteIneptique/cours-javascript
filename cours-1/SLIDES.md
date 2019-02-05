@@ -26,7 +26,7 @@ https://github.com/ponteineptique/cours-javascript
 - Cours 3
   - Le concept d'Ajax
   - Utilisation d'une librairie
-  	- Faire un pop-up à partir de données Ajax
+    - Faire un pop-up à partir de données Ajax
 - Cours 4 et suivants
   - Faire une carte avec Leaflet
 ---
@@ -45,13 +45,13 @@ https://github.com/ponteineptique/cours-javascript
   - http://fr.eloquentjavascript.net
   - http://www.gchagnon.fr/cours/dhtml/
 - Outils
-	- https://jsfiddle.net/
-	- http://labs.codecademy.com/
+  - https://jsfiddle.net/
+  - http://labs.codecademy.com/
 - Veille
-	- https://reddit.com/r/javascript
-	- http://stackoverflow.com
+  - https://reddit.com/r/javascript
+  - http://stackoverflow.com
 - Nouvelles fonctionnalités ES6
-	- https://github.com/addyosmani/es6-equivalents-in-es5
+  - https://github.com/addyosmani/es6-equivalents-in-es5
 ---
 
 # Avertissement
@@ -69,7 +69,7 @@ Ce cours n'a pas été écrit en utilisant la syntaxe nouvelle de ES 6 et ES 7, 
 2. Contrairement au serveur, Javascript possède des informations sur l'interface de l'utilisateur : taille de fenêtre, position du curseur, etc.
 3. Ses versions sont nommées EcmaScript
 4. Il peut être utilisé aussi du côté serveur via NodeJS.
-	1. Il a d'ailleurs son petit succès de ce côté là.
+  1. Il a d'ailleurs son petit succès de ce côté là.
 5. Il est à la mode de créer des applications en n'utilisant que du Javascript et des APIs (pas de HTML prégénéré)
 
 ---
@@ -80,11 +80,11 @@ Ce cours n'a pas été écrit en utilisant la syntaxe nouvelle de ES 6 et ES 7, 
 
 - Création : 1995
 - Dernière version ES7@
-	- Très proche de ES6
-	- Et donc très loin de ES5
-	- https://kangax.github.io/compat-table/es6/
-	- Mais proche d’ActionScript (Avec 15 ans de retard)
-		- Qui lui même est proche d’ES4 (abandonné)
+  - Très proche de ES6
+  - Et donc très loin de ES5
+  - https://kangax.github.io/compat-table/es6/
+  - Mais proche d’ActionScript (avec 15 ans de retard)
+    - Qui lui-même est proche d’ES4 (abandonné)
 
 ---
 
@@ -133,10 +133,10 @@ Ce cours n'a pas été écrit en utilisant la syntaxe nouvelle de ES 6 et ES 7, 
 # Déboguer du javascript
 
 - Firefox
-	- Outils > Web Developer > Debugger 
-	- Ctrl + Maj + S // Pomme + Maj + S
+  - Outils > Web Developer > Debugger 
+  - Ctrl + Maj + S // Pomme + Maj + S
 - Chrome
-	- Ctrl + Maj + I // Pomme + Maj + I
+  - Ctrl + Maj + I // Pomme + Maj + I
 
 ---
 
@@ -184,11 +184,11 @@ var ma_chaine = "789";
 ```js
 ma_variable = 123;
 if (ma_variable == 123) {
-	// Que faire ?
+  // Que faire ?
 } else if (ma_variable == "123") {
-	// Que faire ?
+  // Que faire ?
 } else {
-	// Que faire ?
+  // Que faire ?
 }
 ```
 ---
@@ -197,7 +197,7 @@ if (ma_variable == 123) {
 
 ## Égalités
 
-Les égalités s'expriment de la même manière qu'en Python. On fera attention cependant aux variantes `===` et `!==` qui signifient strictement égales ou inégales. On les préfèrera à `==` et `!=`. *Cf.* https://dorey.github.io/JavaScript-Equality-Table/
+Les égalités s'expriment de la même manière qu'en Python. On fera attention cependant aux variantes `===` et `!==` qui signifient strictement égales ou inégales. On les préfèrera à `==` et `!=`. *cf.* https://dorey.github.io/JavaScript-Equality-Table/
 
 | Opérateur                   | Exemples qui renvoient true          |
 |-----------------------------|--------------------------------------|
@@ -214,13 +214,13 @@ Les égalités s'expriment de la même manière qu'en Python. On fera attention 
 
 # Syntaxe du javascript (4)
 
-## Les Chaînes
+## Les Chaines
 
-1. Tout comme en Python, les chaînes se distinguennt des variables grâce aux `"` et aux `		'`.
-2. On concatène des chaînes via `+` : `var x = "a" + "b"; "ab" === x;`
-3. Les tranches de chaînes s'écrivent avec la méthode `.substring(début, fin)` :
-	- `fin` est optionnel et n'est pas inclusif (comme l'index de fin en python)
-	- Si `fin` n'est pas spécifié, `.subtring(début)` va jusqu'à la fin
+1. Tout comme en Python, les chaines se distinguent des variables grâce aux `"` et aux `    '`.
+2. On concatène des chaines via `+` : `var x = "a" + "b"; "ab" === x;`
+3. Les tranches de chaines s'écrivent avec la méthode `.substring(début, fin)` :
+  - `fin` est optionnel et n'est pas inclusif (comme l'index de fin en python)
+  - Si `fin` n'est pas spécifié, `.subtring(début)` va jusqu'à la fin
 
 <div class="two-pre">
 
@@ -250,17 +250,17 @@ v[0:-2] == "chant"
 
 </div>
 
-4. On transforme une chaîne en entier via la fonction `parseInt()` : `parseInt("42") === 42` (*en python, `int("42")`*)
-5. On transforme une chaîne en décimal via `parseFloat()`
+4. On transforme une chaine en entier via la fonction `parseInt()` : `parseInt("42") === 42` (*en python, `int("42")`*)
+5. On transforme une chaine en décimal via `parseFloat()`
 
 ---
 
 # Syntaxe du javascript (5)
 
-## Les Chaînes (2)
+## Les Chaines (2)
 
 6. On joint les listes via `.join()` où `join` est une méthode de liste
-7. On sépare une chaîne via `.split(délimiteur)`
+7. On sépare une chaine via `.split(délimiteur)`
 8. On peut tester les préfixes et suffixes via `.startsWith()` et `.endsWith()`
 
 <div class="two-pre">
@@ -305,17 +305,17 @@ n.endswith("e") == False
 
 # Syntaxe du javascript (6)
 
-## Les Chaînes (3)
+## Les Chaines (3)
 
-9. `.replace(recherche, remplacement)` permet de faire des remplacements de chaînes
-	- Fonctionne avec des expressions régulières
-	- On peut utiliser les paramètres 
-		- `g` (Valable sur toute la chaîne : global) 
-		- `i` (Insensible à la casse)
+9. `.replace(recherche, remplacement)` permet de faire des remplacements de chaines
+  - Fonctionne avec des expressions régulières
+  - On peut utiliser les paramètres 
+    - `g` (Valable sur toute la chaine : global) 
+    - `i` (Insensible à la casse)
 ```javascript
 // Javascript
 var s = 'do re mi mi Mi';
-// Avec une chaîne
+// Avec une chaine
 s.replace("mi", 'ma') === "do re ma mi Mi";
 // Avec une expression régulière
 s.replace(/mi/, 'ma') === "do re ma mi Mi";
@@ -334,8 +334,8 @@ s.replace(/mi/gi, 'ma') === "do re ma ma ma";
 ## Dictionnaires et listes
 
 1. Les dictionnaires et listes sont appelés `Object` et `Array`. 
-2.  Les dictionnaires sont en fait des objets (au sens instance de classe avec `self` en python) simplifiés
-3. L'écriture d'une liste ou d'un dictionnaire sont similaires :
+2.  Les dictionnaires sont en fait des objets (au sens instance de classe avec `self` en python) simplifiés.
+3. L'écriture d'une liste et d'un dictionnaire sont similaires :
 ```js
 var dico = {
   "python": "Un langage propre",
@@ -542,7 +542,7 @@ affine(2, {"b": 7});
 
 <img align="right" src="./images/diabolo.jpg" width="12%" style="margin:10px;" />
 
-Il faut tout de même noter que  de nombreuses librairies permettent de simplifier certaines de ces écritures. jQuery et Underscore en font partie et permettront d'écrire plus rapidement certaines blocs en les important.
+Il faut tout de même noter que  de nombreuses librairies permettent de simplifier certaines de ces écritures. jQuery et Underscore en font partie et permettront d'écrire plus rapidement certains blocs en les important.
 
 Notez que si vous trouvez un jour `vanilla javascript`, cela signifie que c'est du javascript pur sans librairie.
 

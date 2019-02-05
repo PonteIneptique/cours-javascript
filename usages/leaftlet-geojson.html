@@ -11,22 +11,27 @@
             // Création de la carte à l'id "map"
             var map = L.map('map');
 
-            // Centrer la vue sur 51.505;-0.09 avec un zoom de 13
-            map.setView([51.505, -0.09], 13);
+            // Centrer la vue sur 51.505;-0.09 avec un zoom de 10
+            map.setView([51.505, -0.09], 10);
 
             // Usage des tuiles de carte d'OpenStreetMap puis ajout à la carte map
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
+            var myLayer = L.geoJSON().addTo(map);
 
-            // Création d'un point aux coordonnées 51.5;-0.09
-            var point = L.marker([51.5, -0.09]);
-            // Ajout de ce point à la carte
-            point.addTo(map);
-            // Connexion d'un PopUp qui affichera "A pretty CESS3 popup..." qui accepte le HTML
-            point.bindPopup('A pretty CSS3 popup.<br> Easily customizable.');
-            // Ouverture automatique du Popup
-            //point.openPopup();
+            $.ajax("/json/places.json").done(function(data, x, z) {
+                // On réserve des variables qui permettront de calculer le centre de la carte à la fin
+                geojson_array = [];
+
+                // On boucle sur les clefs
+                for(var place_id in data.places) {
+                    if (data.places[place_id.features]) {
+                    geojson_array.push(data.places[place_id].features[0]);
+                    }
+                }
+                    myLayer.addData(geojson_array);
+            });
         });
      </script>
  </head>

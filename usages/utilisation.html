@@ -12,21 +12,32 @@
             var map = L.map('map');
 
             // Centrer la vue sur 51.505;-0.09 avec un zoom de 13
-            map.setView([51.505, -0.09], 13);
+            // map.setView([51.505, -0.09], 13);
 
             // Usage des tuiles de carte d'OpenStreetMap puis ajout à la carte map
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
 
-            // Création d'un point aux coordonnées 51.5;-0.09
-            var point = L.marker([51.5, -0.09]);
-            // Ajout de ce point à la carte
-            point.addTo(map);
-            // Connexion d'un PopUp qui affichera "A pretty CESS3 popup..." qui accepte le HTML
-            point.bindPopup('A pretty CSS3 popup.<br> Easily customizable.');
-            // Ouverture automatique du Popup
-            //point.openPopup();
+            // Création d'un centre vide
+            var center = [0, 0];
+            $.ajax("json/places.json")
+                .done(function (donnees) {
+                    for (var place_id in donnees["places"]) {
+                        var lieu = donnees["places"][place_id];
+
+                        var coordonnees = [lieu.reprPoint[1], lieu.reprPoint[0]];
+                        var marqueur = L.marker(coordonnees);
+                        marqueur.addTo(map);
+                        marqueur.bindPopup(`<h2>`+lieu.title+`</h2>
+                            <a href="https://pleiades.stoa.org/places/`+place_id+`">Lien</a>
+                            <p>`+lieu.description+`</p>`);
+
+                        center = coordonnees;
+                    }
+                    map.setView(center, 5)
+                });
+
         });
      </script>
  </head>
